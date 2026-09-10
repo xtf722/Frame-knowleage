@@ -4,7 +4,7 @@
 
 这些是源项目中的路径，不是本公开仓库包含的代码。先在你有权限的 Frame app checkout 中按相对路径打开，再搜索正文链接标签、该专题的符号表或测试名。`../../packages` 指向同工作区共享包。
 
-每个来源只保存路径、内容指纹和使用它的专题；原文锚点用于回源定位，不是本知识库的运行保证。
+每个来源只保存路径、内容指纹和使用它的文档；原文锚点用于回源定位，不是本知识库的运行保证。
 
 <a id="source-6f42997bd9"></a>
 
@@ -197,7 +197,7 @@
 
 - 来源路径：`lib/src/features/app_update/frame_app_update_controller.dart`
 - SHA-256：`0a66933aefe4d37cee3e1c1e8e35839362eaadee3fadbdd9bf7228fc56ad418c`
-- 用于：[modules/app-update.md](../modules/app-update.md)
+- 用于：[modules/app-update.md](../modules/app-update.md) · [beginner/guided/app-update.md](../beginner/guided/app-update.md)
 
 <a id="source-cff9022b11"></a>
 
@@ -286,7 +286,7 @@
 
 - 来源路径：`lib/src/features/frame_album/frame_album_playback_page.dart`
 - SHA-256：`c51e976de9c554b34acaac149da537873fe668577b3c6c783010c89c43cf8815`
-- 用于：[modules/moment.md](../modules/moment.md)
+- 用于：[modules/moment.md](../modules/moment.md) · [beginner/guided/moment.md](../beginner/guided/moment.md)
 
 <a id="source-40e71fa779"></a>
 
@@ -358,7 +358,7 @@
 
 - 来源路径：`lib/src/features/portrait_stage/frame_portrait_stage_page.dart`
 - SHA-256：`81a107f59722478c00422ced1a4e511a9a601e8530af7b02ce939243e63f4f6f`
-- 用于：[modules/portrait.md](../modules/portrait.md)
+- 用于：[modules/portrait.md](../modules/portrait.md) · [beginner/guided/portrait.md](../beginner/guided/portrait.md)
 
 <a id="source-fcd62b8e37"></a>
 
@@ -398,7 +398,7 @@
 
 - 来源路径：`lib/src/features/wifi/frame_wifi_design_page.dart`
 - SHA-256：`3a7c3a11708bfe7685e784e8be690af3fb256076757e667dac624ebaf324aca6`
-- 用于：[modules/wifi.md](../modules/wifi.md)
+- 用于：[modules/wifi.md](../modules/wifi.md) · [beginner/guided/wifi.md](../beginner/guided/wifi.md)
 
 <a id="source-6f14ca8a71"></a>
 
@@ -438,7 +438,7 @@
 
 - 来源路径：`test/src/features/app_update/frame_app_update_controller_test.dart`
 - SHA-256：`673330dd65998960d9e9263604603f643d233061aa666aca636547fe1605a347`
-- 用于：[modules/app-update.md](../modules/app-update.md)
+- 用于：[modules/app-update.md](../modules/app-update.md) · [beginner/guided/app-update.md](../beginner/guided/app-update.md)
 
 <a id="source-4dfe8d51ff"></a>
 
@@ -470,7 +470,7 @@
 
 - 来源路径：`test/src/features/frame_album/frame_album_playback_page_test.dart`
 - SHA-256：`64ca8238c7dd3f7444f7de7861bb568a3a6308d489eb19ad3a453af9176be426`
-- 用于：[modules/moment.md](../modules/moment.md)
+- 用于：[modules/moment.md](../modules/moment.md) · [beginner/guided/moment.md](../beginner/guided/moment.md)
 
 <a id="source-fbc0000dd6"></a>
 
@@ -502,7 +502,7 @@
 
 - 来源路径：`test/src/features/portrait_stage/frame_portrait_stage_page_test.dart`
 - SHA-256：`c532cf18dc7ceca4ea8ec0dadcfec801b8806493803003a92cd2193407ea2547`
-- 用于：[modules/portrait.md](../modules/portrait.md)
+- 用于：[modules/portrait.md](../modules/portrait.md) · [beginner/guided/portrait.md](../beginner/guided/portrait.md)
 
 <a id="source-73ee6eb2f8"></a>
 
@@ -526,7 +526,7 @@
 
 - 来源路径：`test/src/features/wifi/frame_wifi_design_page_test.dart`
 - SHA-256：`86ed87a02620338e63de9feb07e8c1b21866dbe7f4cc03edffa4b5d271f9af36`
-- 用于：[modules/wifi.md](../modules/wifi.md)
+- 用于：[modules/wifi.md](../modules/wifi.md) · [beginner/guided/wifi.md](../beginner/guided/wifi.md)
 
 <a id="source-27a9e1407f"></a>
 

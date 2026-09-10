@@ -2,6 +2,8 @@
 
 [返回首页](../README.md) · [Portrait](../modules/portrait.md) · [Wi-Fi](../modules/wifi.md)
 
+这张卡适合回查机制。首次学习请依次进入 [03 Future 与 await](../beginner/03-future-await.md)、[05 Widget 与 State](../beginner/05-widget-state.md)、[08 异步界面](../beginner/08-async-ui.md)；下面的 generation 可配合 [09 旧结果](../beginner/09-stale-results.md) 阅读。
+
 ## 先建立两个模型
 
 **时间模型**：`await` 暂停当前异步函数后续步骤，等待期间其他事件仍可运行；它不会把整个 App 锁住。两个请求可以按 A、B 的顺序发起，却按 B、A 的顺序返回。[Dart Future 官方文档](https://api.flutter.dev/flutter/dart-async/Future-class.html)

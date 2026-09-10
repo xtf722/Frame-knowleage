@@ -2,6 +2,8 @@
 
 [返回首页](../README.md) · [Wi-Fi](wifi.md) · [基础：更新与一致性](../foundations/updates-trust.md)
 
+首次阅读先看 [短导读：下载完成不等于已经安装](../beginner/guided/app-update.md)。本专题供你在掌握小例子后按问题深入查阅。
+
 学习快照：2026-09-09 当前源码工作区（含未提交改动）。本篇解释 App APK 更新；Android / Allwinner 系统固件 OTA 不在这条实现链内。当前行为与验收状态回到 [App Update owner](../evidence/source-map.md#source-b14673fdce)，不由本篇维护。
 
 ## 1. 核心问题

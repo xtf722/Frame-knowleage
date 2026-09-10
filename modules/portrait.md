@@ -1,5 +1,7 @@
 # Portrait：把“宠物会动”拆成可以推理的系统
 
+首次阅读先看 [短导读：只追一次宠物切换](../beginner/guided/portrait.md)。本专题供你在掌握小例子后按问题深入查阅。
+
 > 学习快照：2026-09-09 当前工作区。正确拼写是 **Portrait**，不是 potrait。
 > 本章解释源码中的设计及可迁移的知识，不维护产品验收状态。
 > 当前行为与验证入口以 [Companion owner](../evidence/source-map.md#source-4c7d22fe13)、[HOME owner](../evidence/source-map.md#source-46f2776d39)、[Data Transfer owner](../evidence/source-map.md#source-83200d27ef) 和共享播放器 owner 为准。

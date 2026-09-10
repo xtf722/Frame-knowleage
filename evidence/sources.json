@@ -230,7 +230,8 @@
       "path": "lib/src/features/app_update/frame_app_update_controller.dart",
       "sha256": "0a66933aefe4d37cee3e1c1e8e35839362eaadee3fadbdd9bf7228fc56ad418c",
       "used_by": [
-        "modules/app-update.md"
+        "modules/app-update.md",
+        "beginner/guided/app-update.md"
       ],
       "source_fragments": []
     },
@@ -337,7 +338,8 @@
       "path": "lib/src/features/frame_album/frame_album_playback_page.dart",
       "sha256": "c51e976de9c554b34acaac149da537873fe668577b3c6c783010c89c43cf8815",
       "used_by": [
-        "modules/moment.md"
+        "modules/moment.md",
+        "beginner/guided/moment.md"
       ],
       "source_fragments": []
     },
@@ -419,7 +421,8 @@
       "path": "lib/src/features/portrait_stage/frame_portrait_stage_page.dart",
       "sha256": "81a107f59722478c00422ced1a4e511a9a601e8530af7b02ce939243e63f4f6f",
       "used_by": [
-        "modules/portrait.md"
+        "modules/portrait.md",
+        "beginner/guided/portrait.md"
       ],
       "source_fragments": []
     },
@@ -464,7 +467,8 @@
       "path": "lib/src/features/wifi/frame_wifi_design_page.dart",
       "sha256": "3a7c3a11708bfe7685e784e8be690af3fb256076757e667dac624ebaf324aca6",
       "used_by": [
-        "modules/wifi.md"
+        "modules/wifi.md",
+        "beginner/guided/wifi.md"
       ],
       "source_fragments": []
     },
@@ -509,7 +513,8 @@
       "path": "test/src/features/app_update/frame_app_update_controller_test.dart",
       "sha256": "673330dd65998960d9e9263604603f643d233061aa666aca636547fe1605a347",
       "used_by": [
-        "modules/app-update.md"
+        "modules/app-update.md",
+        "beginner/guided/app-update.md"
       ],
       "source_fragments": []
     },
@@ -545,7 +550,8 @@
       "path": "test/src/features/frame_album/frame_album_playback_page_test.dart",
       "sha256": "64ca8238c7dd3f7444f7de7861bb568a3a6308d489eb19ad3a453af9176be426",
       "used_by": [
-        "modules/moment.md"
+        "modules/moment.md",
+        "beginner/guided/moment.md"
       ],
       "source_fragments": []
     },
@@ -581,7 +587,8 @@
       "path": "test/src/features/portrait_stage/frame_portrait_stage_page_test.dart",
       "sha256": "c532cf18dc7ceca4ea8ec0dadcfec801b8806493803003a92cd2193407ea2547",
       "used_by": [
-        "modules/portrait.md"
+        "modules/portrait.md",
+        "beginner/guided/portrait.md"
       ],
       "source_fragments": []
     },
@@ -608,7 +615,8 @@
       "path": "test/src/features/wifi/frame_wifi_design_page_test.dart",
       "sha256": "86ed87a02620338e63de9feb07e8c1b21866dbe7f4cc03edffa4b5d271f9af36",
       "used_by": [
-        "modules/wifi.md"
+        "modules/wifi.md",
+        "beginner/guided/wifi.md"
       ],
       "source_fragments": []
     },

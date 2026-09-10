@@ -1,5 +1,7 @@
 # Moment：从一组媒体到连续、可恢复的播放
 
+首次阅读先看 [短导读：一张照片怎样暂停与恢复](../beginner/guided/moment.md)。本专题供你在掌握小例子后按问题深入查阅。
+
 > 学习快照：2026-09-09 工作区。本文用当前源码讲解设计与推演方法；当前行为、验证状态、延期项以 [Data Transfer owner](../evidence/source-map.md#source-83200d27ef)、[Gallery owner](../evidence/source-map.md#source-0a00066c7d)、[Settings owner](../evidence/source-map.md#source-fcd62b8e37) 为准。本轮只阅读源码与测试，没有执行测试或设备实验。
 
 ## 先建立三个不同的概念

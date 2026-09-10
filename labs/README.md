@@ -1,6 +1,8 @@
-# 两个可以独立运行的 Dart 学习实验
+# 学习实验：从短例子到异步反例
 
 [返回首页](../README.md) · [异步基础](../foundations/async-lifecycle.md) · [更新基础](../foundations/updates-trust.md)
+
+刚开始学写法时，先去 [入门实验](beginner/README.md)：回调、await 顺序、泛型与空值、定时器，以及两个 Flutter 页面。下面保留两份进阶实验，学到旧结果和事件重放时再用。
 
 只需 Dart SDK，不依赖 Flutter、第三方包、网络、设备或项目凭据。在本知识库根目录运行：
 

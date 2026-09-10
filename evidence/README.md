@@ -1,6 +1,6 @@
 # 来源与复核
 
-[返回首页](../README.md) · [源码检索索引](source-map.md) · [来源清单](sources.json) · [本次验证](validation.md)
+[返回首页](../README.md) · [源码检索索引](source-map.md) · [来源清单](sources.json) · [首次专题验证](validation.md) · [入门课程验证](beginner-validation.md)
 
 ## 这份快照代表什么
 
@@ -23,6 +23,8 @@
 参考组织结构来自 [zyyziyunying/KnowledgeBase](https://github.com/zyyziyunying/KnowledgeBase) 的本地副本 `dae3470e61f8d6232454d02a67e812e304998c49`。该副本的 origin 已核对；本次网页抓取失败，因此不声称其内容是远端最新版本。只借鉴索引、专题和证据分工，没有复制其 Framework 讲义。
 
 基础卡中的官方网页于 2026-09-09 打开核对，保留直接链接和版本限制，不镜像全文或给动态网页计算“固定源码 hash”。
+
+2026-09-10 增加的入门课程和短导读，分别使用通用教学模型和已有专题快照；其代码执行、导航及来源复核记录放在 [课程验证](beginner-validation.md)。新增导读的取材关系补入清单，原始采集日期和内容指纹保持不变。
 
 ## 如何复核
 

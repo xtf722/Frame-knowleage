@@ -6,11 +6,13 @@
 
 ## 从这里开始
 
-1. [学习地图](learning-map.md)：按问题选择专题，先建立四条链路的联系。
-2. [生命周期总览](lifecycle-map.md)：把 Widget、路由、业务 session、App、原生资源和进程分开。
-3. 选一篇专题，边读边在源码中搜索文中的 English identifiers。
-4. 遇到不懂的概念，跳到对应基础卡；回来完成专题自测。
-5. 用 [复习计划](review/plan.md) 和 [复盘模板](review/note-template.md) 记录自己的解释。
+如果 `async/await`、回调、State、泛型等写法本身也不熟，从 [自学课程](beginner/README.md) 开始。每课都有短例子、逐句解释、预测题、折叠答案和修改练习；可以连续自学，不需要每答一题等 AI 回复。
+
+1. [自学课程](beginner/README.md)：先读懂写法，再理解页面，最后一次只追一个 Frame 动作。
+2. [学习地图](learning-map.md)：按自己当前的问题选择课程、短导读或原模块专题。
+3. [生命周期总览](lifecycle-map.md)：学完基础生命周期后，再比较跨模块的六种生存期。
+4. [练习运行方法](labs/beginner/README.md)：运行完整示例；文档里的方法片段则按标注位置阅读。
+5. 用 [复习计划](review/plan.md) 和 [复盘模板](review/note-template.md) 记录自己的解释，不按固定天数赶进度。
 
 ## 四个核心专题
 
@@ -33,7 +35,7 @@
 | identity、revision、缓存、Range、提交资格 | [缓存与数据身份](foundations/storage-identity.md) |
 | hash、签名、安装 session、幂等、ACK 丢失 | [更新与跨系统一致性](foundations/updates-trust.md) |
 
-还有两个不依赖 Flutter 的 [Dart 学习实验](labs/README.md)，用可控顺序观察“旧请求覆盖新状态”和“回包丢失后的同事件重放”。
+基础写法还可以查 [语法桌](beginner/syntax-desk.md)。[Dart 学习实验](labs/README.md) 包括入门练习与旧结果、事件重放的进阶实验，按课程入口选择即可。
 
 ## 内容与依据
 

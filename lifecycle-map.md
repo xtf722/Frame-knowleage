@@ -2,6 +2,8 @@
 
 [返回首页](README.md) · [基础卡](foundations/async-lifecycle.md)
 
+初学先读 [06 单个 State 的生命周期](beginner/06-lifecycle.md) 和 [07 参数变化](beginner/07-config-updates.md)。本页用于之后比较多层生命周期，不要求第一遍就画出六条时间线。
+
 这是一张教学地图。具体创建、暂停、恢复与释放动作，以四个专题中的源码链为准。
 
 ## 六种生命周期不能混成一个
