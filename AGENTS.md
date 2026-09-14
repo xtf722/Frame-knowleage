@@ -8,6 +8,8 @@
 - beginner 保存循序渐进的自学课程：先修、一个核心问题、短例子、逐句解释、预测题、折叠答案及理由、小改动练习、完成标准。每次只引入必要的新概念，已会内容可通过练习跳过。
 - beginner/guided 每篇只追一个模块行为，连接基础课与 modules；限制本轮需要打开的源码文件，明确阅读停止点。导读不另建产品行为事实源。
 - modules 每条核心链路一篇，按“问题 → 源码 → 生命周期 → 失败 → 基础 → 自测”组织。
+- articles 保存注明阅读日期的技术博客：从具体工程冲突推导方案、取舍与验证，附面试讲述和追问；链接自己的来源快照，不冒充产品合同。
+- interview 保存项目介绍、案例组织和候选简历表达；个人负责范围以作者确认内容为准，不编造事故、协作归属、收益指标或完成状态。
 - foundations 解释跨模块可迁移的机制，通过回链落回项目，不复制专题的全部实现。
 - review 保存复习方法、个人空白模板和用户明确记录的掌握状态；不替用户声明已经掌握。
 - evidence 保存源码路径、符号、读取时的 revision 和 hash，不保存源码副本。
@@ -39,6 +41,7 @@
 
 - `python tools/verify_knowledge.py` 检查文件、Markdown 链接和证据结构。
 - 若有源码：`python tools/verify_knowledge.py --source-root /path/to/frame-app` 复核来源 hash。
+- 博客使用独立清单：`python tools/verify_knowledge.py --manifest evidence/blog-sources.json --source-root /path/to/frame-app`。历史快照漂移保留并解释，不能覆盖旧 hash 以消除提示。
 - `git diff --check`；检查提交范围只包含本知识库。
 - 只改文档无需运行产品构建或设备操作。示例改动仅运行对应示例。
 - commit/push 根据用户授权执行，不能改写历史或覆盖远端已有内容。

@@ -78,8 +78,12 @@ def safe_source_path(value):
     return bool(parts) and all(part not in ("", ".", "..") for part in parts)
 
 
-def check(root, source_root=None):
+def check(root, source_root=None, manifest="evidence/sources.json"):
     errors, drift, external = [], [], 0
+    manifest_path = (root / manifest).resolve()
+    if not inside(manifest_path, root):
+        print("来源清单必须位于知识库目录内。")
+        return 1
     for name in ("README.md", "AGENTS.md", "learning-map.md", "lifecycle-map.md"):
         if not (root / name).is_file():
             errors.append(f"缺少入口文档: {name}")
@@ -116,7 +120,7 @@ def check(root, source_root=None):
             elif url.fragment and destination in docs and unquote(url.fragment) not in all_anchors[destination]:
                 errors.append(f"锚点不存在: {label}")
     try:
-        evidence = json.loads((root / "evidence/sources.json").read_text(encoding="utf-8-sig"))
+        evidence = json.loads(manifest_path.read_text(encoding="utf-8-sig"))
     except (OSError, UnicodeError, ValueError) as error:
         evidence = {}
         errors.append(f"证据不可读: {error}")
@@ -182,9 +186,10 @@ def check(root, source_root=None):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--source-root", type=Path, help="本地 Frame app 源码根；可选 hash 对照")
+    parser.add_argument("--manifest", default="evidence/sources.json", help="知识库内的来源清单；默认保留原专题快照")
     args = parser.parse_args()
     root = Path(__file__).resolve().parents[1]
-    return check(root, args.source_root.resolve() if args.source_root else None)
+    return check(root, args.source_root.resolve() if args.source_root else None, args.manifest)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,652 @@
+{
+  "schema_version": 1,
+  "captured_date": "2026-09-14",
+  "basis": "reviewed working-tree bytes; dated technical articles, not product acceptance",
+  "repositories": {
+    "frame_app": {
+      "head": "e6716090398a8a55284c6211b1da37698014a454",
+      "working_tree_dirty": false
+    },
+    "workspace": {
+      "head": "175928abc5d04028a37c5c2439e38fbacfbd674c",
+      "working_tree_dirty": true
+    }
+  },
+  "sources": [
+    {
+      "id": "source-225f4526be",
+      "path": "../../packages/besideyou_client_core/lib/src/media_runtime/media_runtime_policy.dart",
+      "sha256": "5e936fe30296f9ee293e513b8e10a2f7660de868be5c73c22764ade4eb2413f6",
+      "used_by": [
+        "articles/moment-cache-continuity.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-moment-shared-identity"
+      ],
+      "symbols": [
+        "BesideYouRuntimeManifestMedia.mediaCacheIdentityFromFields"
+      ]
+    },
+    {
+      "id": "source-a8454fc649",
+      "path": "../../packages/besideyou_client_core/lib/src/portrait_player/README.md",
+      "sha256": "f1b705c287766e09b279ba5d22626c15645e454c437a7c2328662020083e1d61",
+      "used_by": [
+        "articles/portrait-lifecycle-identity.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-portrait-shared-owner"
+      ],
+      "symbols": [
+        "Diagnostics contract",
+        "Current Boundary"
+      ]
+    },
+    {
+      "id": "source-3b077ba16d",
+      "path": "../../packages/besideyou_client_core/lib/src/portrait_player/presentation/portrait_player_live_host.dart",
+      "sha256": "31d39061f56427ea8096e706e369e4ffc808ffce7b2aedd4b1bf7333284e9e16",
+      "used_by": [
+        "articles/portrait-lifecycle-identity.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-portrait-host"
+      ],
+      "symbols": [
+        "_PortraitPlayerLiveHostState.didUpdateWidget",
+        "_bootstrapDependencies",
+        "_bootstrapGeneration",
+        "_disposeUnattachedDependencies",
+        "_withBootstrapPoster",
+        "build"
+      ]
+    },
+    {
+      "id": "source-6129668b33",
+      "path": "../../packages/besideyou_client_core/test/portrait_player/presentation/portrait_player_live_rebuild_test.dart",
+      "sha256": "b3aee4953d5b8904cf1974252d058b73bfcbde8e88361e4568610ae2248d0004",
+      "used_by": [
+        "articles/portrait-lifecycle-identity.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-portrait-host-tests"
+      ],
+      "symbols": [
+        "replacing an existing bootstrap poster preserves the live media state",
+        "adding and removing a bootstrap poster preserves the live media state"
+      ]
+    },
+    {
+      "id": "source-80523e2c42",
+      "path": "../../packages/tiny_player/docs/当前播放路线唯一口径.md",
+      "sha256": "d73e9ed0cd6448701ddf3f0ca8f698dab8fab8b9d59c032b4d0204ce080302f3",
+      "used_by": [
+        "articles/portrait-lifecycle-identity.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-portrait-native-owner"
+      ],
+      "symbols": [
+        "Android queue 原生实例复用（2026-09-08）",
+        "playQueue",
+        "sessionId",
+        "generation"
+      ]
+    },
+    {
+      "id": "source-add2a0c82e",
+      "path": "android/app/src/main/kotlin/ai/besideyou/frame/FrameAppUpdateHost.kt",
+      "sha256": "8492dcf03c1d879ea88e8318b4a5acd40398d504ad08f222d8840af6b63e22af",
+      "used_by": [
+        "articles/app-update-recovery.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-update-host"
+      ],
+      "symbols": [
+        "installVerifiedApk",
+        "commitPackageInstallerSession",
+        "validateArchiveIdentity",
+        "FrameAppUpdatePersistence",
+        "saveCoordinatorState",
+        "saveInstallerState",
+        "clearCoordinatorState",
+        "clearInstallerState"
+      ]
+    },
+    {
+      "id": "source-2cfb9e5af4",
+      "path": "android/app/src/main/kotlin/ai/besideyou/frame/FrameAppUpdateInstallReceiver.kt",
+      "sha256": "1e6786f6e229bbde50630774a3eaf22806cf5adb32c45a6b0f8ede77fcda4d57",
+      "used_by": [
+        "articles/app-update-recovery.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-update-receiver"
+      ],
+      "symbols": [
+        "FrameAppUpdateInstallReceiver.onReceive",
+        "pendingUserAction"
+      ]
+    },
+    {
+      "id": "source-0318a5d1ab",
+      "path": "android/app/src/main/kotlin/ai/besideyou/frame/FrameAppUpdateInstallerSubmission.kt",
+      "sha256": "e7f37b3203fa49a27df1556691d4401009e95300c262bf4b60c55bb9c7eaf951",
+      "used_by": [
+        "articles/app-update-recovery.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-update-submission"
+      ],
+      "symbols": [
+        "FrameAppUpdateInstallerSubmission.submit",
+        "commitAttempted",
+        "PREPARE_FAILED",
+        "CLEANUP_UNCONFIRMED",
+        "COMMIT_UNCONFIRMED"
+      ]
+    },
+    {
+      "id": "source-d51e36dbe9",
+      "path": "android/app/src/test/kotlin/ai/besideyou/frame/FrameAppUpdateInstallerSubmissionTest.kt",
+      "sha256": "6cf9bda7504bf7904140266f495dd9a10d575cb79618e56c92f1f60839d710f7",
+      "used_by": [
+        "articles/app-update-recovery.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-update-submission-tests"
+      ],
+      "symbols": [
+        "submission persists before commit and releases the session after commit",
+        "every preparation failure is retryable only after its session is abandoned",
+        "failed abandon blocks new sessions in this process and after restoration",
+        "commit exception preserves submitted or the terminal receiver result without abandoning",
+        "close failure after commit returns does not turn accepted submission into a retry"
+      ]
+    },
+    {
+      "id": "source-95e8dab761",
+      "path": "lib/app/frame_app.dart",
+      "sha256": "c9bbe763ef4980d9fef99ac0535ef668e80c173196478d0985d16e64a540418c",
+      "used_by": [
+        "articles/wifi-readiness-handoff.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-wifi-app"
+      ],
+      "symbols": [
+        "_wifiStatusObserver",
+        "_handleAppUpdateWifiChanged"
+      ]
+    },
+    {
+      "id": "source-83653d89db",
+      "path": "lib/app/route/frame_routes.dart",
+      "sha256": "c3307e68ca061f3e0c2005a5756c42dd5f0eb1fe027a53bb294572a397eba128",
+      "used_by": [
+        "articles/portrait-lifecycle-identity.md",
+        "articles/moment-cache-continuity.md",
+        "articles/wifi-readiness-handoff.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-portrait-routes",
+        "blog-moment-routes",
+        "blog-wifi-routes"
+      ],
+      "symbols": [
+        "_portraitStagePageForState",
+        "playbackIdentity",
+        "_albumPageForState",
+        "_albumPlaybackSessionIdentity",
+        "FrameRouteName.wifiSetup",
+        "FrameRouteName.settingsNetwork"
+      ]
+    },
+    {
+      "id": "source-b14673fdce",
+      "path": "lib/src/features/app_update/README.html",
+      "sha256": "f3eb15c88c2b9983dceba8a141357117af2357ed42eb2304e11fe57b978a3c5e",
+      "used_by": [
+        "articles/app-update-recovery.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-update-owner"
+      ],
+      "symbols": [
+        "discovery-scheduling",
+        "installer-submission-retry",
+        "恢复与幂等",
+        "UI"
+      ]
+    },
+    {
+      "id": "source-2dca7594fe",
+      "path": "lib/src/features/app_update/frame_app_update_controller.dart",
+      "sha256": "0a66933aefe4d37cee3e1c1e8e35839362eaadee3fadbdd9bf7228fc56ad418c",
+      "used_by": [
+        "articles/app-update-recovery.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-update-controller"
+      ],
+      "symbols": [
+        "FrameAppUpdatePhase",
+        "postponeInstall",
+        "_PersistedUpdateAttempt",
+        "_continuePersistedAttempt",
+        "_submitDownloadedUpdate",
+        "_retry",
+        "_installerRetryAdmitted",
+        "_reportIfNeeded",
+        "_flushQueuedEvent",
+        "_confirmInstalledApp",
+        "_runExclusive"
+      ]
+    },
+    {
+      "id": "source-cff9022b11",
+      "path": "lib/src/features/app_update/frame_app_update_downloader.dart",
+      "sha256": "5162fef39a90cdd5c7934998aedaf0ff96ebd9e21c2bbac3359aaa9d5753f975",
+      "used_by": [
+        "articles/app-update-recovery.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-update-downloader"
+      ],
+      "symbols": [
+        "HttpFrameAppUpdateDownloader.download",
+        "_deletePartial"
+      ]
+    },
+    {
+      "id": "source-4c7d22fe13",
+      "path": "lib/src/features/companion/README.html",
+      "sha256": "f700a73d18258259c39bb78677b0e900352520239cff7c6c1ee5d4d408ac8d4e",
+      "used_by": [
+        "articles/portrait-lifecycle-identity.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-portrait-companion-owner"
+      ],
+      "symbols": [
+        "portrait-poster-localization-continuity",
+        "portrait-resource-lifecycle",
+        "portrait-performance-20260909"
+      ]
+    },
+    {
+      "id": "source-83200d27ef",
+      "path": "lib/src/features/data_transfer/README.html",
+      "sha256": "ae041146c6b50a4302635d328f244ed3078b9a3dd42ab016473110e7136423c7",
+      "used_by": [
+        "articles/moment-cache-continuity.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-moment-data-transfer"
+      ],
+      "symbols": [
+        "moment-cache-first-playback",
+        "cache-first-playback"
+      ]
+    },
+    {
+      "id": "source-886fe19d83",
+      "path": "lib/src/features/data_transfer/frame_first_sync.dart",
+      "sha256": "977158c87f3160dd99e80181289f04a285a71bc9e0956e0e9ff3a6852f02dc40",
+      "used_by": [
+        "articles/moment-cache-continuity.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-moment-first-sync"
+      ],
+      "symbols": [
+        "authoritativeCandidates",
+        "_matchesMediaIdentity",
+        "_hasOnlyAuthoritativeHttpsAlbumMedia",
+        "_publishPlaybackReady"
+      ]
+    },
+    {
+      "id": "source-4c34a86877",
+      "path": "lib/src/features/frame_album/frame_album_cache.dart",
+      "sha256": "28adf201db2061da6057c2a6872d270684d70a29568e125bec3ecc1c14426f67",
+      "used_by": [
+        "articles/moment-cache-continuity.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-moment-cache"
+      ],
+      "symbols": [
+        "FrameAlbumMediaCachePreparer.resolveCached",
+        "_validateCacheHit",
+        "_cacheFingerprint"
+      ]
+    },
+    {
+      "id": "source-1df70f9b0b",
+      "path": "lib/src/features/frame_album/frame_album_models.dart",
+      "sha256": "da92e328e4aaf89cf834244de02eebaf9a594c1088414037b0076c8274104cac",
+      "used_by": [
+        "articles/moment-cache-continuity.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-moment-models"
+      ],
+      "symbols": [
+        "FrameAlbumItem",
+        "FrameAlbumItemSource",
+        "FrameAlbumItem.mediaCacheIdentity"
+      ]
+    },
+    {
+      "id": "source-e11368de0f",
+      "path": "lib/src/features/frame_album/frame_album_playback_page.dart",
+      "sha256": "c51e976de9c554b34acaac149da537873fe668577b3c6c783010c89c43cf8815",
+      "used_by": [
+        "articles/moment-cache-continuity.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-moment-playback"
+      ],
+      "symbols": [
+        "FrameAlbumPlaybackItem.hasSameMediaIdentity",
+        "FrameAlbumPlaybackItem.hasSamePlaybackContent",
+        "_cacheFirstPlaybackItems",
+        "_samePlaybackQueue",
+        "_FrameAlbumPlaybackPageState.didUpdateWidget",
+        "_activeSource",
+        "_syncActivePlaybackPolicy",
+        "_FrameAlbumVideoPlayerState._configureAndPlay",
+        "_sourceOperationGeneration",
+        "_soundPolicyGeneration",
+        "_thumbnailOperationGeneration"
+      ]
+    },
+    {
+      "id": "source-0a00066c7d",
+      "path": "lib/src/features/gallery/README.html",
+      "sha256": "7960fcb71bfc0b99432b72b4c6de94a96c141669e86b134ebc2fd8e8ccf27cc6",
+      "used_by": [
+        "articles/moment-cache-continuity.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-moment-gallery"
+      ],
+      "symbols": [
+        "FrameAlbumMediaType.image",
+        "playbackChanges",
+        "filterPlaybackItemsByOwnership"
+      ]
+    },
+    {
+      "id": "source-46f2776d39",
+      "path": "lib/src/features/home/README.html",
+      "sha256": "54a5dfaf7758faf136b4c93c3c87e4625f0726e9fc4fe715099e4c4a0de54fb4",
+      "used_by": [
+        "articles/portrait-lifecycle-identity.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-portrait-home-owner"
+      ],
+      "symbols": [
+        "HOME",
+        "PowerVR",
+        "requireVideoSurface",
+        "Portrait"
+      ]
+    },
+    {
+      "id": "source-fe3eff6d65",
+      "path": "lib/src/features/portrait_stage/frame_portrait_live_video_asset_store.dart",
+      "sha256": "6fa613947abaa27803e219309adfd87833e31657007d5e826f96bbe84b0e570c",
+      "used_by": [
+        "articles/portrait-lifecycle-identity.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-portrait-assets"
+      ],
+      "symbols": [
+        "FramePortraitLiveVideoAssetStore",
+        "updateManifest",
+        "_aliasesFor",
+        "materialize"
+      ]
+    },
+    {
+      "id": "source-c969a6cf62",
+      "path": "lib/src/features/portrait_stage/frame_portrait_stage_page.dart",
+      "sha256": "81a107f59722478c00422ced1a4e511a9a601e8530af7b02ce939243e63f4f6f",
+      "used_by": [
+        "articles/portrait-lifecycle-identity.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-portrait-stage"
+      ],
+      "symbols": [
+        "_FramePortraitSessionInputs.hasSameTransition",
+        "_stableDependenciesLoader",
+        "didUpdateWidget",
+        "_resolveTargetPoster",
+        "_commitPreparedSession",
+        "_loadDependencies",
+        "_posterGeneration",
+        "_dependencyLoadGeneration"
+      ]
+    },
+    {
+      "id": "source-fcd62b8e37",
+      "path": "lib/src/features/settings/README.html",
+      "sha256": "518f101c9cfc3a858ad313ef48fc8fb5f309ee0bc43acd2458d5b8e5407fc6f1",
+      "used_by": [
+        "articles/moment-cache-continuity.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-moment-settings"
+      ],
+      "symbols": [
+        "Current downstream behavior",
+        "FrameSlideshowInterval.never",
+        "Every 60s"
+      ]
+    },
+    {
+      "id": "source-1605f96079",
+      "path": "lib/src/features/wifi/frame_wifi_design_page.dart",
+      "sha256": "3a7c3a11708bfe7685e784e8be690af3fb256076757e667dac624ebaf324aca6",
+      "used_by": [
+        "articles/wifi-readiness-handoff.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-wifi-page"
+      ],
+      "symbols": [
+        "_handoffWhenReady",
+        "_isCurrentHandoff",
+        "_handoffSavedWifiOnStartup"
+      ]
+    },
+    {
+      "id": "source-d0faccd468",
+      "path": "lib/src/features/wifi/frame_wifi_status_observer.dart",
+      "sha256": "e2ba234bbd05f1db3b8534f28a2c6efb54f76ca410c3249fb379cafe6698e162",
+      "used_by": [
+        "articles/wifi-readiness-handoff.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-wifi-observer"
+      ],
+      "symbols": [
+        "FrameWifiStatusObserver",
+        "_readPending",
+        "refresh",
+        "stop"
+      ]
+    },
+    {
+      "id": "source-3a278e482c",
+      "path": "test/src/features/app_update/frame_app_update_controller_test.dart",
+      "sha256": "673330dd65998960d9e9263604603f643d233061aa666aca636547fe1605a347",
+      "used_by": [
+        "articles/app-update-recovery.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-update-controller-tests"
+      ],
+      "symbols": [
+        "prepare failure retains the verified APK until explicit Retry",
+        "only reconciles on Retry and recovery",
+        "pending event ACK save failure replays the same durable event after restart",
+        "Retry after a prepare failure requires successful Android readback",
+        "replays the same durable event after an uncertain response"
+      ]
+    },
+    {
+      "id": "source-dde4bff34e",
+      "path": "test/src/features/frame_album/frame_album_cache_lookup_test.dart",
+      "sha256": "c95eb9f82cfc0d466971eb8bba4a9b54197bea1997061d47cc6f9713617872bf",
+      "used_by": [
+        "articles/moment-cache-continuity.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-moment-cache-test"
+      ],
+      "symbols": [
+        "a new managed commit during digest invalidates the old file proof",
+        "digest does not hold Storage FIFO and revoked lookup cannot publish"
+      ]
+    },
+    {
+      "id": "source-ab0b20ab1e",
+      "path": "test/src/features/frame_album/frame_album_playback_page_test.dart",
+      "sha256": "64ca8238c7dd3f7444f7de7861bb568a3a6308d489eb19ad3a453af9176be426",
+      "used_by": [
+        "articles/moment-cache-continuity.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-moment-test"
+      ],
+      "symbols": [
+        "cache upgrade preserves photo deadline and uses next local file",
+        "cache upgrade keeps playing video until its original deadline",
+        "a delayed old video setup cannot replay the replacement source",
+        "video pause resumes the same source without pause feedback"
+      ]
+    },
+    {
+      "id": "source-542aa9a2e4",
+      "path": "test/src/features/frame_album/frame_album_runtime_policy_test.dart",
+      "sha256": "51d034120bdea3e3a5ac716283d7d9a2a0a79c9a4daf2d8815bea733a3aa486c",
+      "used_by": [
+        "articles/moment-cache-continuity.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-moment-policy-test"
+      ],
+      "symbols": [
+        "current video survives index shift without new play stop or disposal",
+        "remote to cache upgrade retains current video source and controller",
+        "manual drag",
+        "Never video plays normally and neither max duration nor completion advances"
+      ]
+    },
+    {
+      "id": "source-f9320751c0",
+      "path": "test/src/features/portrait_stage/frame_portrait_live_video_asset_store_test.dart",
+      "sha256": "cc837512c0f411921a533bf0872781681672f947e390a723a134bf8f9aa79cbf",
+      "used_by": [
+        "articles/portrait-lifecycle-identity.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-portrait-asset-tests"
+      ],
+      "symbols": [
+        "same runtime promotes initial remote reference to trusted cached file",
+        "cross-frame, pet, revision, media and reference changes cannot remap active driver",
+        "missing trusted cache fails without using stale remote URL"
+      ]
+    },
+    {
+      "id": "source-2aa098367c",
+      "path": "test/src/features/portrait_stage/frame_portrait_stage_page_test.dart",
+      "sha256": "c532cf18dc7ceca4ea8ec0dadcfec801b8806493803003a92cd2193407ea2547",
+      "used_by": [
+        "articles/portrait-lifecycle-identity.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-portrait-stage-tests"
+      ],
+      "symbols": [
+        "network poster localization retains the mounted video surface",
+        "cached poster online refresh retains the mounted video surface",
+        "returning to the active companion cancels a pending poster switch",
+        "same-transition rebuild while loading still reveals decoded content",
+        "repeated poster switches release decoded image handles"
+      ]
+    },
+    {
+      "id": "source-085fdc4f7f",
+      "path": "test/src/features/wifi/frame_wifi_design_page_test.dart",
+      "sha256": "86ed87a02620338e63de9feb07e8c1b21866dbe7f4cc03edffa4b5d271f9af36",
+      "used_by": [
+        "articles/wifi-readiness-handoff.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-wifi-page-tests"
+      ],
+      "symbols": [
+        "handoff rechecks WiFi after health before navigating",
+        "Refresh cancels pending health and only latest handoff navigates"
+      ]
+    },
+    {
+      "id": "source-27a9e1407f",
+      "path": "test/src/features/wifi/frame_wifi_status_observer_test.dart",
+      "sha256": "baa49fa661b993008ca1c71cd1dc9f3be5c4376b297dab61368528cab825f97e",
+      "used_by": [
+        "articles/wifi-readiness-handoff.md"
+      ],
+      "source_fragments": [],
+      "aliases": [
+        "blog-wifi-observer-tests"
+      ],
+      "symbols": [
+        "timeout clears stale connection without piling up platform reads"
+      ]
+    }
+  ]
+}

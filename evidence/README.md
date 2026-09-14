@@ -1,5 +1,7 @@
 # 来源与复核
 
+2026-09-14 的技术博客使用独立的 [来源索引](blog-source-map.md)、[清单](blog-sources.json)、[提交线索](contribution-history.md) 和 [验证记录](blog-validation.md)。下面继续说明原专题快照，不能把两次取材日期合并。
+
 [返回首页](../README.md) · [源码检索索引](source-map.md) · [来源清单](sources.json) · [首次专题验证](validation.md) · [入门课程验证](beginner-validation.md)
 
 ## 这份快照代表什么
@@ -47,3 +49,5 @@ python tools/verify_knowledge.py --source-root /path/to/frame-app
 - 返回 `2`：来源内容漂移，需要重读相关代码和专题。
 
 hash 相同只表明字节相同，不证明讲解一定正确；hash 不同也不意味着每条结论都失效。先看 source-map 中的引用专题，再进行定向复核，不能直接刷新 hash 消除提示。
+
+新博客的定向复核使用 `python tools/verify_knowledge.py --manifest evidence/blog-sources.json --source-root /path/to/frame-app`；不传 `--manifest` 时仍检查原 `sources.json`。2026-09-14 原快照已有 5 项漂移，详情留在博客验证记录；本次没有覆盖旧采集记录。
