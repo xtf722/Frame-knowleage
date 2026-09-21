@@ -1,5 +1,7 @@
 # 来源与复核
 
+手机端课程单独进入 [App 来源索引](app-source-map.md)、[App 清单](app-sources.json)、[负责范围与 Git 证据](app-contributions.md)和 [App 复核记录](app-validation.md)。它与下述 Frame 快照分开维护，使用自己的 App 源码根目录。
+
 2026-09-14 的技术博客使用独立的 [来源索引](blog-source-map.md)、[清单](blog-sources.json)、[提交线索](contribution-history.md) 和 [验证记录](blog-validation.md)。下面继续说明原专题快照，不能把两次取材日期合并。
 
 [返回首页](../README.md) · [源码检索索引](source-map.md) · [来源清单](sources.json) · [首次专题验证](validation.md) · [入门课程验证](beginner-validation.md)

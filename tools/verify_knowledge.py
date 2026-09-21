@@ -129,7 +129,12 @@ def check(root, source_root=None, manifest="evidence/sources.json"):
     if type(evidence.get("schema_version")) is not int or evidence.get("schema_version") != 1:
         errors.append("evidence.schema_version 必须为 1")
     repositories = evidence.get("repositories", {})
-    for name in ("frame_app", "workspace"):
+    # 旧快照继续以 frame_app 为根；App 快照须显式声明，不能借用 Frame 仓库身份。
+    primary_repository = evidence.get("primary_repository", "frame_app")
+    if primary_repository not in ("frame_app", "app"):
+        errors.append("primary_repository 必须为 frame_app 或 app")
+        primary_repository = "frame_app"
+    for name in (primary_repository, "workspace"):
         repo = repositories.get(name, {}) if isinstance(repositories, dict) else {}
         if not isinstance(repo, dict) or not re.fullmatch(r"[0-9a-fA-F]{40}|[0-9a-fA-F]{64}", str(repo.get("head", ""))) or type(repo.get("working_tree_dirty")) is not bool:
             errors.append(f"repositories.{name} 的 head/working_tree_dirty 无效")
@@ -185,7 +190,7 @@ def check(root, source_root=None, manifest="evidence/sources.json"):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--source-root", type=Path, help="本地 Frame app 源码根；可选 hash 对照")
+    parser.add_argument("--source-root", type=Path, help="所选清单主仓库的本地源码根；可选 hash 对照")
     parser.add_argument("--manifest", default="evidence/sources.json", help="知识库内的来源清单；默认保留原专题快照")
     args = parser.parse_args()
     root = Path(__file__).resolve().parents[1]

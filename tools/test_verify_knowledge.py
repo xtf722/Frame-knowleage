@@ -67,6 +67,38 @@ class SnapshotSelectionTest(unittest.TestCase):
         self.assertEqual(self.run_check(), 0)
         self.assertEqual(self.run_check(manifest="evidence/blog-sources.json"), 0)
 
+    def app_manifest(self):
+        evidence = self.manifest(b"current source\n")
+        evidence["primary_repository"] = "app"
+        evidence["repositories"]["app"] = evidence["repositories"].pop("frame_app")
+        return evidence
+
+    def test_app_snapshot_checks_hashes_without_frame_repository(self):
+        evidence = self.app_manifest()
+        self.write_manifest("app-sources.json", evidence)
+        self.assertEqual(self.run_check(source_root=self.source, manifest="evidence/app-sources.json"), 0)
+        original = (self.root / "evidence/app-sources.json").read_bytes()
+        (self.source / "example.dart").write_bytes(b"changed App source\n")
+        self.assertEqual(self.run_check(source_root=self.source, manifest="evidence/app-sources.json"), 2)
+        self.assertEqual((self.root / "evidence/app-sources.json").read_bytes(), original)
+
+    def test_invalid_primary_repository_is_not_a_pass(self):
+        for value in (None, "", "workspace", "unknown", [], {}):
+            with self.subTest(value=value):
+                evidence = self.manifest(b"current source\n")
+                evidence["primary_repository"] = value
+                self.write_manifest("app-sources.json", evidence)
+                self.assertEqual(self.run_check(manifest="evidence/app-sources.json"), 1)
+
+    def test_app_snapshot_requires_valid_app_and_workspace_metadata(self):
+        for name in ("app", "workspace"):
+            for invalid in (None, {"head": "bad", "working_tree_dirty": False}, {"head": "1" * 40, "working_tree_dirty": "false"}):
+                with self.subTest(name=name, invalid=invalid):
+                    evidence = self.app_manifest()
+                    evidence["repositories"][name] = invalid
+                    self.write_manifest("app-sources.json", evidence)
+                    self.assertEqual(self.run_check(manifest="evidence/app-sources.json"), 1)
+
     def test_outside_or_missing_manifest_is_not_a_pass(self):
         self.assertEqual(self.run_check(manifest="../outside.json"), 1)
         self.assertEqual(self.run_check(manifest="evidence/missing.json"), 1)

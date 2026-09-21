@@ -2,6 +2,8 @@
 
 [返回首页](README.md)
 
+要理解自己负责的手机 App 开发，走 [BesideYou App 学习顺序](besideyou-app/README.md)。其中有独立的提交范围、数据流、基础与业务章节；下方既有课程和问题地图继续围绕 Frame。
+
 已有项目经验、想整理技术亮点与面试案例时，走 [技术博客](articles/README.md) → [面试准备](interview/README.md)。需要补写法时再回到基础课。
 
 先选择合适的阅读层级。写法不熟时先做小例子；能够读懂一个方法后，再追模块调用链。

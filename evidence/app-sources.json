@@ -1,0 +1,1219 @@
+{
+  "schema_version": 1,
+  "primary_repository": "app",
+  "captured_date": "2026-09-21",
+  "basis": "reviewed working-tree bytes and author-scoped Git diffs; learning snapshot, not runtime or device acceptance",
+  "repositories": {
+    "app": {
+      "head": "78a0855fdb44a066ee836bbf3f9cf1e20621e17f",
+      "working_tree_dirty": true
+    },
+    "workspace": {
+      "head": "f21b1bb0ecb3bc44ed672781c1657ddcdb28cf90",
+      "working_tree_dirty": true
+    }
+  },
+  "sources": [
+    {
+      "id": "source-a8454fc649",
+      "path": "../../packages/besideyou_client_core/lib/src/portrait_player/README.md",
+      "sha256": "39cf39f66f08933999b66b429a3ed08022be87d26357b8baa1f95747891fbe45",
+      "used_by": [
+        "besideyou-app/04-portrait-stage-and-runtime.md",
+        "besideyou-app/05-touch-guide-and-progress.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "只读交互与播放观测",
+        "Interaction/runtime contract",
+        "展示与解码",
+        "Mutable caller media mappings"
+      ],
+      "symbol_first_match_lines": {
+        "只读交互与播放观测": 42,
+        "Interaction/runtime contract": 50,
+        "展示与解码": 79,
+        "Mutable caller media mappings": 91
+      }
+    },
+    {
+      "id": "source-7d3d8e4308",
+      "path": "../../packages/besideyou_client_core/lib/src/portrait_player/presentation/live_segment_driver.dart",
+      "sha256": "1ea3bb32b7285c4282011e5e1d482cf7929fd8b1694a376dceccf5d58936c9bf",
+      "used_by": [
+        "besideyou-app/05-touch-guide-and-progress.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "RandomPortraitTouchVariantResolver",
+        "PortraitPlayerSegmentActivity",
+        "onCurrentPlaybackChanged"
+      ],
+      "symbol_first_match_lines": {
+        "RandomPortraitTouchVariantResolver": 40,
+        "PortraitPlayerSegmentActivity": 68,
+        "onCurrentPlaybackChanged": 390
+      }
+    },
+    {
+      "id": "source-3b077ba16d",
+      "path": "../../packages/besideyou_client_core/lib/src/portrait_player/presentation/portrait_player_live_host.dart",
+      "sha256": "a1d7622d1cfc1c60e8c0ee018901e11df095d22cab634c2e18278f2c4f721a37",
+      "used_by": [
+        "besideyou-app/04-portrait-stage-and-runtime.md",
+        "besideyou-app/05-touch-guide-and-progress.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "PortraitPlayerInteractionStatus",
+        "resolveLiveHostPointerDownTarget",
+        "pointerDownBindingOverride",
+        "PortraitPlayerLiveHost",
+        "onAcceptedPointerDown"
+      ],
+      "symbol_first_match_lines": {
+        "PortraitPlayerInteractionStatus": 55,
+        "resolveLiveHostPointerDownTarget": 394,
+        "pointerDownBindingOverride": 404,
+        "PortraitPlayerLiveHost": 638,
+        "onAcceptedPointerDown": 651
+      }
+    },
+    {
+      "id": "source-decb2fc45f",
+      "path": "LOCAL.md",
+      "sha256": "84273668eb2cbb0125530e9de6d48fb5cd2d65a73aa828ea71c30e783f286871",
+      "used_by": [
+        "besideyou-app/06-local-mock-and-real-entry.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "Local Entry Points",
+        "Runtime Env Selection"
+      ],
+      "symbol_first_match_lines": {
+        "Local Entry Points": 9,
+        "Runtime Env Selection": 19
+      }
+    },
+    {
+      "id": "source-7426c9e3a6",
+      "path": "SPEC.md",
+      "sha256": "ca00ee3837717bca36b459a0a7eaf3970843ca6438ce285461d044dd11a26f12",
+      "used_by": [
+        "besideyou-app/03-home-data-flow.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "Product Direction",
+        "Compatibility"
+      ],
+      "symbol_first_match_lines": {
+        "Product Direction": 6,
+        "Compatibility": 31
+      }
+    },
+    {
+      "id": "source-954dfd4ea7",
+      "path": "lib/app/api/README.md",
+      "sha256": "1cd342257909038ccd152098665eaace72bc031ad52d8f6a0de950b9bee9b8c8",
+      "used_by": [
+        "besideyou-app/01-foundations.md",
+        "besideyou-app/02-startup-api-and-ownership.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "DTO JSON Serialization Contract",
+        "Repository Usage"
+      ],
+      "symbol_first_match_lines": {
+        "DTO JSON Serialization Contract": 82,
+        "Repository Usage": 112
+      }
+    },
+    {
+      "id": "source-224a9bec56",
+      "path": "lib/app/api/app_api_gateway.dart",
+      "sha256": "323f189ad1cacb6da0210634da2e2b7ac1dcac82855f97b4aea59a122e90fde6",
+      "used_by": [
+        "besideyou-app/01-foundations.md",
+        "besideyou-app/02-startup-api-and-ownership.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "AppApiGateway",
+        "getJson",
+        "requestJson"
+      ],
+      "symbol_first_match_lines": {
+        "AppApiGateway": 47,
+        "getJson": 102,
+        "requestJson": 110
+      }
+    },
+    {
+      "id": "source-8b13bea569",
+      "path": "lib/app/api/app_api_json_reader.dart",
+      "sha256": "c8dbc9f9ff955df8aa2510121a6669303e7fbe7a0e8571605b2487391ee97a4f",
+      "used_by": [
+        "besideyou-app/01-foundations.md",
+        "besideyou-app/02-startup-api-and-ownership.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "AppApiJsonReader",
+        "intField"
+      ],
+      "symbol_first_match_lines": {
+        "AppApiJsonReader": 5,
+        "intField": 63
+      }
+    },
+    {
+      "id": "source-230837bee5",
+      "path": "lib/app/auth/README.md",
+      "sha256": "5a810481c3eda7103e9be451b0e5f3650b8993c844a815ab111f30dad040b981",
+      "used_by": [
+        "besideyou-app/01-foundations.md",
+        "besideyou-app/02-startup-api-and-ownership.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "目录职责",
+        "Session boundary"
+      ],
+      "symbol_first_match_lines": {
+        "目录职责": 3,
+        "Session boundary": 22
+      }
+    },
+    {
+      "id": "source-cb702e8cf5",
+      "path": "lib/app/bootstrap/README.md",
+      "sha256": "33078ad3fe318759c880392a6ac402f22455a3fe3e8861a1cf50129c073f70a6",
+      "used_by": [
+        "besideyou-app/01-foundations.md",
+        "besideyou-app/02-startup-api-and-ownership.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "边界规则",
+        "AppBootstrapRepository"
+      ],
+      "symbol_first_match_lines": {
+        "边界规则": 22,
+        "AppBootstrapRepository": 10
+      }
+    },
+    {
+      "id": "source-b315af4dc8",
+      "path": "lib/app/bootstrap/app_bootstrap_repository.dart",
+      "sha256": "9d8e489bc55c87e2bf5241e40779f279b60ca19cc9dd83236ece8a90cc599cf0",
+      "used_by": [
+        "besideyou-app/01-foundations.md",
+        "besideyou-app/02-startup-api-and-ownership.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "GatewayAppBootstrapRepository",
+        "fetchBootstrap",
+        "AppBootstrapSnapshot"
+      ],
+      "symbol_first_match_lines": {
+        "GatewayAppBootstrapRepository": 21,
+        "fetchBootstrap": 14,
+        "AppBootstrapSnapshot": 14
+      }
+    },
+    {
+      "id": "source-df5417d81b",
+      "path": "lib/app/debug/README.html",
+      "sha256": "987d7a88844f5be84197e32ec4fe237d0543cbd670946f8156f7d5a96c3d175e",
+      "used_by": [
+        "besideyou-app/06-local-mock-and-real-entry.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "BESIDEYOU_MOCK_MODE",
+        "DebugAppMockComposition"
+      ],
+      "symbol_first_match_lines": {
+        "BESIDEYOU_MOCK_MODE": 17,
+        "DebugAppMockComposition": 54
+      }
+    },
+    {
+      "id": "source-e954339ce8",
+      "path": "lib/app/debug/debug_app_api_fixture_backend.dart",
+      "sha256": "b7ac393853fa16a9dd45c8fee391de9c281f3fe8e230ea76d020dc23e073d25d",
+      "used_by": [
+        "besideyou-app/06-local-mock-and-real-entry.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "DebugAppApiFixtureBackend",
+        "_DebugAppApiFixtureHttpClientAdapter"
+      ],
+      "symbol_first_match_lines": {
+        "DebugAppApiFixtureBackend": 50,
+        "_DebugAppApiFixtureHttpClientAdapter": 61
+      }
+    },
+    {
+      "id": "source-5d204e58b3",
+      "path": "lib/app/debug/debug_app_mock_composition.dart",
+      "sha256": "8f474b1c42e2fad29e4b2605c436e3151c6e8a97f0877e0359d11ba8e9e21713",
+      "used_by": [
+        "besideyou-app/06-local-mock-and-real-entry.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "DebugAppMockComposition",
+        "appApiGatewayOverride"
+      ],
+      "symbol_first_match_lines": {
+        "DebugAppMockComposition": 34,
+        "appApiGatewayOverride": 49
+      }
+    },
+    {
+      "id": "source-ec5cf8c2d3",
+      "path": "lib/app/debug/debug_app_mock_state.dart",
+      "sha256": "5bac05d98649c8deedcbbfe58928316de0bdde6ca87f93b6a389ba6a9f8cf226",
+      "used_by": [
+        "besideyou-app/06-local-mock-and-real-entry.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "existingUserReady",
+        "spaceLifecycle"
+      ],
+      "symbol_first_match_lines": {
+        "existingUserReady": 124,
+        "spaceLifecycle": 136
+      }
+    },
+    {
+      "id": "source-3c9e4a572d",
+      "path": "lib/app/debug/debug_app_update_mocks.dart",
+      "sha256": "4f1014a0b9ec5b9ebb92d3d1bd3f57dddbac90468f04d14677968c45b069b0a3",
+      "used_by": [
+        "besideyou-app/06-local-mock-and-real-entry.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "DebugContinueAppUpdateStartupGate",
+        "DebugRequiredAppUpdateStartupGate",
+        "DebugNoopAppUpdateStoreLauncher"
+      ],
+      "symbol_first_match_lines": {
+        "DebugContinueAppUpdateStartupGate": 7,
+        "DebugRequiredAppUpdateStartupGate": 15,
+        "DebugNoopAppUpdateStoreLauncher": 40
+      }
+    },
+    {
+      "id": "source-1314b9358d",
+      "path": "lib/app/di/README.md",
+      "sha256": "ba5d5df2bf214d1dc73a5dfb0b227842898834aaaaade9693b2a13ba707583a7",
+      "used_by": [
+        "besideyou-app/01-foundations.md",
+        "besideyou-app/02-startup-api-and-ownership.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "目录职责",
+        "边界规则"
+      ],
+      "symbol_first_match_lines": {
+        "目录职责": 3,
+        "边界规则": 12
+      }
+    },
+    {
+      "id": "source-9258963b4e",
+      "path": "lib/app/pages/home/README.md",
+      "sha256": "ab8872ba51fbb62d950c059788f593a62e362b365ae4776b49981ae3142e09b4",
+      "used_by": [
+        "besideyou-app/03-home-data-flow.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "Portrait 本机加载提示与 Basic 入口",
+        "Pet Space 选择与交互边界"
+      ],
+      "symbol_first_match_lines": {
+        "Portrait 本机加载提示与 Basic 入口": 105,
+        "Pet Space 选择与交互边界": 231
+      }
+    },
+    {
+      "id": "source-ef579a64ef",
+      "path": "lib/app/pages/home/home_page.dart",
+      "sha256": "9748d2ffe739807f097b30c17edffb81be330d5882690a5974851b9a68c05f12",
+      "used_by": [
+        "besideyou-app/03-home-data-flow.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "HomePage",
+        "_HomeBasicPortraitAction",
+        "basicPortraitUpgrade"
+      ],
+      "symbol_first_match_lines": {
+        "HomePage": 18,
+        "_HomeBasicPortraitAction": 689,
+        "basicPortraitUpgrade": 139
+      }
+    },
+    {
+      "id": "source-fbd29dbf36",
+      "path": "lib/app/pages/home/home_portrait_preparing.dart",
+      "sha256": "391529f9e36b5ef0852a0dc85211c17ac39db8a522a80f240781b6caa82c663c",
+      "used_by": [
+        "besideyou-app/03-home-data-flow.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "HomePortraitPreparation",
+        "HomePortraitPreparingPill",
+        "HomePortraitPreparationList",
+        "_PreparingPillState",
+        "_syncMotion"
+      ],
+      "symbol_first_match_lines": {
+        "HomePortraitPreparation": 11,
+        "HomePortraitPreparingPill": 36,
+        "HomePortraitPreparationList": 271,
+        "_PreparingPillState": 53,
+        "_syncMotion": 77
+      }
+    },
+    {
+      "id": "source-91a979a975",
+      "path": "lib/app/pages/home/home_root_page.dart",
+      "sha256": "5cae8793cb88ccea71c8664245bd6cb879ceda4f5c7fd02008d57c5f3fb16315",
+      "used_by": [
+        "besideyou-app/03-home-data-flow.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "HomeRootPage",
+        "_usesBasicPortraitUpgrade",
+        "_openBasicPortraitPlans",
+        "_schedulePriorityPetSpacePrewarm",
+        "_prewarmPriorityPetSpace",
+        "_startPetSpacePrewarm",
+        "_isPetSpaceEnterable",
+        "_handlePetSpaceSelected"
+      ],
+      "symbol_first_match_lines": {
+        "HomeRootPage": 61,
+        "_usesBasicPortraitUpgrade": 200,
+        "_openBasicPortraitPlans": 220,
+        "_schedulePriorityPetSpacePrewarm": 380,
+        "_prewarmPriorityPetSpace": 825,
+        "_startPetSpacePrewarm": 848,
+        "_isPetSpaceEnterable": 188,
+        "_handlePetSpaceSelected": 951
+      }
+    },
+    {
+      "id": "source-9a3dd976c9",
+      "path": "lib/app/pages/home/home_tab_shell.dart",
+      "sha256": "404a5649cfc04efed2f02e3298e98d6f887291b65a7e745ced442c39adf48e6a",
+      "used_by": [
+        "besideyou-app/03-home-data-flow.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "HomeTabShell",
+        "_syncPreparationOrder",
+        "_preparations",
+        "_dismissPortraitList",
+        "_openPortraitList",
+        "preparationOwner"
+      ],
+      "symbol_first_match_lines": {
+        "HomeTabShell": 19,
+        "_syncPreparationOrder": 202,
+        "_preparations": 212,
+        "_dismissPortraitList": 222,
+        "_openPortraitList": 250,
+        "preparationOwner": 140
+      }
+    },
+    {
+      "id": "source-7ff673e529",
+      "path": "lib/app/pages/pet_space/README.html",
+      "sha256": "023064332120fe602ee461356e77c9226870f69c4d1641e19aa789f01407622c",
+      "used_by": [
+        "besideyou-app/04-portrait-stage-and-runtime.md",
+        "besideyou-app/05-touch-guide-and-progress.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "当前职责",
+        "主链路",
+        "portrait-access-matrix",
+        "portrait-stage",
+        "portrait-touch-guide"
+      ],
+      "symbol_first_match_lines": {
+        "当前职责": 41,
+        "主链路": 42,
+        "portrait-access-matrix": 151,
+        "portrait-stage": 315,
+        "portrait-touch-guide": 323
+      }
+    },
+    {
+      "id": "source-3f1d39f9b3",
+      "path": "lib/app/pages/pet_space/pet_space_interactive_view.dart",
+      "sha256": "24df13a028c3c53529344e94373fe4434e636cfcdc8b765c349cb088c334b5aa",
+      "used_by": [
+        "besideyou-app/04-portrait-stage-and-runtime.md",
+        "besideyou-app/05-touch-guide-and-progress.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "PetSpaceInteractiveView",
+        "_buildRuntimeDependencies",
+        "_PresentedPortrait",
+        "_portraitPointerBinding",
+        "_onGuideProgressChanged",
+        "bootstrapPosterImageForManifest",
+        "_clientStillImagePath",
+        "_handleAcceptedPointerDown",
+        "_handleAcceptedPointerEnd"
+      ],
+      "symbol_first_match_lines": {
+        "PetSpaceInteractiveView": 33,
+        "_buildRuntimeDependencies": 135,
+        "_PresentedPortrait": 114,
+        "_portraitPointerBinding": 151,
+        "_onGuideProgressChanged": 132,
+        "bootstrapPosterImageForManifest": 278,
+        "_clientStillImagePath": 683,
+        "_handleAcceptedPointerDown": 393,
+        "_handleAcceptedPointerEnd": 395
+      }
+    },
+    {
+      "id": "source-6cde9f3754",
+      "path": "lib/app/pages/pet_space/pet_space_portrait_guide.dart",
+      "sha256": "2eafc1930cdc7fd036865d9e834384ab3c4575a90e7999d4bf420802043ff0ca",
+      "used_by": [
+        "besideyou-app/05-touch-guide-and-progress.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "portraitGuideSniffCandidateId",
+        "portraitGuideSniffBinding",
+        "portraitGuideMiddlePoint",
+        "PetSpacePortraitGuide",
+        "_syncMotion"
+      ],
+      "symbol_first_match_lines": {
+        "portraitGuideSniffCandidateId": 10,
+        "portraitGuideSniffBinding": 11,
+        "portraitGuideMiddlePoint": 17,
+        "PetSpacePortraitGuide": 106,
+        "_syncMotion": 151
+      }
+    },
+    {
+      "id": "source-989be8fc67",
+      "path": "lib/app/pages/pet_space/pet_space_portrait_guide_controller.dart",
+      "sha256": "4857e93b5eddffeaba542a8ffeb373981ccd35557ecb06d6de3d1cbf7cf6faea",
+      "used_by": [
+        "besideyou-app/05-touch-guide-and-progress.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "PortraitGuidePhase",
+        "PetSpacePortraitGuideController",
+        "attach",
+        "observe",
+        "interrupt",
+        "_attachmentGeneration",
+        "showSuccess",
+        "dispose"
+      ],
+      "symbol_first_match_lines": {
+        "PortraitGuidePhase": 7,
+        "PetSpacePortraitGuideController": 10,
+        "attach": 19,
+        "observe": 86,
+        "interrupt": 33,
+        "_attachmentGeneration": 19,
+        "showSuccess": 138,
+        "dispose": 16
+      }
+    },
+    {
+      "id": "source-fcc0ff3f5c",
+      "path": "lib/app/pages/pet_space/pet_space_portrait_guide_progress.dart",
+      "sha256": "2828b63ee11bb5e70fb85068892e977f6e0c227c516be93fec9c8014d80caabc",
+      "used_by": [
+        "besideyou-app/05-touch-guide-and-progress.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "PetSpacePortraitGuideProgress",
+        "forAccount",
+        "completedKey",
+        "load",
+        "_read",
+        "markCompleted",
+        "_write"
+      ],
+      "symbol_first_match_lines": {
+        "PetSpacePortraitGuideProgress": 5,
+        "forAccount": 10,
+        "completedKey": 22,
+        "load": 28,
+        "_read": 46,
+        "markCompleted": 44,
+        "_write": 69
+      }
+    },
+    {
+      "id": "source-5d166b023b",
+      "path": "lib/app/pages/pet_space/pet_space_portrait_stage.dart",
+      "sha256": "777eaf117bad7300b40031d6f144f3f93047d3303c3d93e15bd11ee1d9826b05",
+      "used_by": [
+        "besideyou-app/04-portrait-stage-and-runtime.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "PetSpacePortraitMetrics",
+        "petSpacePortraitRect",
+        "PetSpacePortraitBackdrop",
+        "_PortraitBackdropImage"
+      ],
+      "symbol_first_match_lines": {
+        "PetSpacePortraitMetrics": 10,
+        "petSpacePortraitRect": 30,
+        "PetSpacePortraitBackdrop": 68,
+        "_PortraitBackdropImage": 100
+      }
+    },
+    {
+      "id": "source-00dbde0494",
+      "path": "lib/app/pets/README.md",
+      "sha256": "57bad69fa26353edcd13e24d8a145e2c6f7c49e2faa640fc8c514aae0e24d5f5",
+      "used_by": [
+        "besideyou-app/03-home-data-flow.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "UserPetCenterLoadController",
+        "UserPetCenterRepository"
+      ],
+      "symbol_first_match_lines": {
+        "UserPetCenterLoadController": 11,
+        "UserPetCenterRepository": 10
+      }
+    },
+    {
+      "id": "source-19c7a4c070",
+      "path": "lib/app/pets/user_pet_center_load_controller.dart",
+      "sha256": "f8fc195b551930ea99dc254ea830cf6be19ae88b77d19dc6c59e27f8d2dd9537",
+      "used_by": [
+        "besideyou-app/03-home-data-flow.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "UserPetCenterLoadController",
+        "ensureLoaded",
+        "refresh",
+        "revalidate",
+        "_load",
+        "reset"
+      ],
+      "symbol_first_match_lines": {
+        "UserPetCenterLoadController": 26,
+        "ensureLoaded": 83,
+        "refresh": 103,
+        "revalidate": 121,
+        "_load": 100,
+        "reset": 158
+      }
+    },
+    {
+      "id": "source-4c55bf7065",
+      "path": "lib/app/pets/user_pet_center_repository.dart",
+      "sha256": "b2cd4a50136d1f6a416a20423ea47e3bb790b741ba065be361afade4d45e1bb8",
+      "used_by": [
+        "besideyou-app/03-home-data-flow.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "GatewayUserPetCenterRepository",
+        "fetchQueue",
+        "UserPetCenterQueueResult"
+      ],
+      "symbol_first_match_lines": {
+        "GatewayUserPetCenterRepository": 27,
+        "fetchQueue": 19,
+        "UserPetCenterQueueResult": 19
+      }
+    },
+    {
+      "id": "source-ae772624cd",
+      "path": "lib/app/route/README.html",
+      "sha256": "41a7c46066f6246d5fc0198a9f52aaa1b7e0906d920f49ccb43677e0968e75c3",
+      "used_by": [
+        "besideyou-app/03-home-data-flow.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "portrait-entry-matrix"
+      ],
+      "symbol_first_match_lines": {
+        "portrait-entry-matrix": 64
+      }
+    },
+    {
+      "id": "source-537711eb32",
+      "path": "lib/app/route/app_route_redirect_resolver.dart",
+      "sha256": "a5d9c758d882b25cd52a3a870f5e31e80015821915a5e961b7dc341833708587",
+      "used_by": [
+        "besideyou-app/01-foundations.md",
+        "besideyou-app/02-startup-api-and-ownership.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "_startupLocationForBootstrap",
+        "skipPetSpaceFallbackRevalidation",
+        "revalidateAuthoritatively"
+      ],
+      "symbol_first_match_lines": {
+        "_startupLocationForBootstrap": 202,
+        "skipPetSpaceFallbackRevalidation": 158,
+        "revalidateAuthoritatively": 442
+      }
+    },
+    {
+      "id": "source-78929bc681",
+      "path": "lib/app/route/app_startup_flow_location_mapper.dart",
+      "sha256": "2cac6d2a8b3aaad9dac5eb925b4af525612cbd1c5117683ae7f8e1ea42579043",
+      "used_by": [
+        "besideyou-app/01-foundations.md",
+        "besideyou-app/02-startup-api-and-ownership.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "AppStartupFlowLocationMapper",
+        "locationForBootstrap"
+      ],
+      "symbol_first_match_lines": {
+        "AppStartupFlowLocationMapper": 6,
+        "locationForBootstrap": 25
+      }
+    },
+    {
+      "id": "source-2a9a18d84f",
+      "path": "lib/app/route/home_route_adapter.dart",
+      "sha256": "072036c30c9d394a2cb6e17f0c2942a8e5ac9630c7a225a8dac94b83bb2528e6",
+      "used_by": [
+        "besideyou-app/03-home-data-flow.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "buildHomeRoute",
+        "onViewPlans",
+        "onPetSpaceSelected"
+      ],
+      "symbol_first_match_lines": {
+        "buildHomeRoute": 52,
+        "onViewPlans": 159,
+        "onPetSpaceSelected": 223
+      }
+    },
+    {
+      "id": "source-d4daa9bf79",
+      "path": "lib/app/route/session-and-startup-contract.html",
+      "sha256": "a40e7e0fe78ef30ef1fc95b35a112e0ecb1aba6671d762b3d781fc336190e2af",
+      "used_by": [
+        "besideyou-app/01-foundations.md",
+        "besideyou-app/02-startup-api-and-ownership.md",
+        "besideyou-app/03-home-data-flow.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "bootstrap-startup-flow",
+        "portrait-entry-matrix",
+        "homePetSelection"
+      ],
+      "symbol_first_match_lines": {
+        "bootstrap-startup-flow": 366,
+        "portrait-entry-matrix": 135,
+        "homePetSelection": 193
+      }
+    },
+    {
+      "id": "source-97c15bc27f",
+      "path": "lib/app/session/README.md",
+      "sha256": "9fa5a56810780cd92dbddb9f76cbac4fa62e99547f6baf88ef11da4ece1a63ff",
+      "used_by": [
+        "besideyou-app/01-foundations.md",
+        "besideyou-app/02-startup-api-and-ownership.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "目录职责"
+      ],
+      "symbol_first_match_lines": {
+        "目录职责": 3
+      }
+    },
+    {
+      "id": "source-2c59b0d5be",
+      "path": "lib/app/session/account_session_fenced_app_bootstrap_repository.dart",
+      "sha256": "82e3b6c3665b244270ef27628d247bc7b508c8e5b57b4142204a273a0b78a90a",
+      "used_by": [
+        "besideyou-app/01-foundations.md",
+        "besideyou-app/02-startup-api-and-ownership.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "AccountSessionFencedAppBootstrapRepository",
+        "_throwIfSuperseded"
+      ],
+      "symbol_first_match_lines": {
+        "AccountSessionFencedAppBootstrapRepository": 4,
+        "_throwIfSuperseded": 18
+      }
+    },
+    {
+      "id": "source-02d52b6c65",
+      "path": "lib/app/session/app_account_session_lifecycle.dart",
+      "sha256": "d82abc910dc722db23675a0ea38a730a61168187d3a22d3b3f3ea80bd4a1a0c4",
+      "used_by": [
+        "besideyou-app/01-foundations.md",
+        "besideyou-app/02-startup-api-and-ownership.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "AppAccountSessionStamp",
+        "AppAccountSessionLifecycle",
+        "isCurrent"
+      ],
+      "symbol_first_match_lines": {
+        "AppAccountSessionStamp": 6,
+        "AppAccountSessionLifecycle": 116,
+        "isCurrent": 146
+      }
+    },
+    {
+      "id": "source-e39b6ef4bd",
+      "path": "lib/app/space/README.html",
+      "sha256": "e9a5e1b87cfa4bb3bb7454c8282c72e4b6308065024e903679115b95f70e90f5",
+      "used_by": [
+        "besideyou-app/03-home-data-flow.md",
+        "besideyou-app/04-portrait-stage-and-runtime.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "prewarm-scheduler",
+        "controller-state-model",
+        "manifest-media"
+      ],
+      "symbol_first_match_lines": {
+        "prewarm-scheduler": 64,
+        "controller-state-model": 163,
+        "manifest-media": 336
+      }
+    },
+    {
+      "id": "source-a5e4cedf0f",
+      "path": "lib/app/space/pet_space_prewarm_scheduler.dart",
+      "sha256": "ce3f33faa39c1429d756f99e1050edad1c88c57f8dec5c5aeb24bdae1c7fb635",
+      "used_by": [
+        "besideyou-app/03-home-data-flow.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "PetSpacePrewarmPriority",
+        "DefaultPetSpacePrewarmScheduler",
+        "schedule",
+        "_promote",
+        "_discard"
+      ],
+      "symbol_first_match_lines": {
+        "PetSpacePrewarmPriority": 9,
+        "DefaultPetSpacePrewarmScheduler": 79,
+        "schedule": 37,
+        "_promote": 51,
+        "_discard": 52
+      }
+    },
+    {
+      "id": "source-5cd1ada1d4",
+      "path": "lib/app/space/pet_space_priority_prewarmer.dart",
+      "sha256": "a8e2ff321ca86bb53be0d82a1afe497ca31e2896801aa80075ece0d1cf9f82e9",
+      "used_by": [
+        "besideyou-app/03-home-data-flow.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "PetSpacePriorityPrewarmer",
+        "PetSpacePrewarmStatus",
+        "DefaultPetSpacePriorityPrewarmer",
+        "_publishStatus",
+        "prewarm",
+        "existingWarmup",
+        "discardPendingHomeWarmups",
+        "reset",
+        "_run"
+      ],
+      "symbol_first_match_lines": {
+        "PetSpacePriorityPrewarmer": 10,
+        "PetSpacePrewarmStatus": 11,
+        "DefaultPetSpacePriorityPrewarmer": 93,
+        "_publishStatus": 140,
+        "prewarm": 6,
+        "existingWarmup": 22,
+        "discardPendingHomeWarmups": 27,
+        "reset": 29,
+        "_run": 7
+      }
+    },
+    {
+      "id": "source-4c5d31ebe8",
+      "path": "lib/app/space/pet_space_runtime_adapter.dart",
+      "sha256": "b100cc8612f24ada3a28b654fe387a99d8e1c5af34336ec10fee16a702891c4e",
+      "used_by": [
+        "besideyou-app/04-portrait-stage-and-runtime.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "PetSpaceRuntimeAdapter",
+        "buildDependencies",
+        "PetSpaceRuntimeReady",
+        "PetSpaceRuntimeUnsupported",
+        "refreshMedia",
+        "_runtimeManifest"
+      ],
+      "symbol_first_match_lines": {
+        "PetSpaceRuntimeAdapter": 13,
+        "buildDependencies": 38,
+        "PetSpaceRuntimeReady": 17,
+        "PetSpaceRuntimeUnsupported": 31,
+        "refreshMedia": 18,
+        "_runtimeManifest": 69
+      }
+    },
+    {
+      "id": "source-df2668af98",
+      "path": "lib/app/space/pet_space_runtime_asset_preloader.dart",
+      "sha256": "37033ad123489afbcef17a14d18c84f35e5bf3b57c988c37f0d6b777b50fb54c",
+      "used_by": [
+        "besideyou-app/03-home-data-flow.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "PetSpaceRuntimeAssetPreloadProgress",
+        "fraction",
+        "_currentAssetFraction"
+      ],
+      "symbol_first_match_lines": {
+        "PetSpaceRuntimeAssetPreloadProgress": 54,
+        "fraction": 149,
+        "_currentAssetFraction": 154
+      }
+    },
+    {
+      "id": "source-53176a06d2",
+      "path": "lib/env/README.md",
+      "sha256": "e8c747307307242167ce079f97621e19c4d7bff19d15b93e3ca7089c61da8ad4",
+      "used_by": [
+        "besideyou-app/06-local-mock-and-real-entry.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "BESIDEYOU_MOCK_MODE",
+        "BESIDEYOU_INCLUDE_DEBUG_ROUTES"
+      ],
+      "symbol_first_match_lines": {
+        "BESIDEYOU_MOCK_MODE": 116,
+        "BESIDEYOU_INCLUDE_DEBUG_ROUTES": 120
+      }
+    },
+    {
+      "id": "source-e61eb31d01",
+      "path": "lib/main.dart",
+      "sha256": "057b12abe8beb8827d688cdf2013973b26a392fbc4c1dd1394dcbf252e15015c",
+      "used_by": [
+        "besideyou-app/01-foundations.md",
+        "besideyou-app/02-startup-api-and-ownership.md",
+        "besideyou-app/06-local-mock-and-real-entry.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "runBesideYouMainEntry",
+        "loadBesideYouMainApp"
+      ],
+      "symbol_first_match_lines": {
+        "runBesideYouMainEntry": 454,
+        "loadBesideYouMainApp": 534
+      }
+    },
+    {
+      "id": "source-2151dbe1b6",
+      "path": "lib/main.local.dart",
+      "sha256": "de119f26caa8e17e0fb46686fcf956c6d40ac448360b0154314aaaa2f8004308",
+      "used_by": [
+        "besideyou-app/06-local-mock-and-real-entry.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "_mockModeEnabled",
+        "_mockForceUpdate",
+        "_loadLocalApp",
+        "_loadLocalMockApp"
+      ],
+      "symbol_first_match_lines": {
+        "_mockModeEnabled": 39,
+        "_mockForceUpdate": 40,
+        "_loadLocalApp": 119,
+        "_loadLocalMockApp": 119
+      }
+    },
+    {
+      "id": "source-e8d8bba885",
+      "path": "lib/portrait_player/README.md",
+      "sha256": "bb8c8779dfdb432baa9b9bebd022f1f3367eeddb2c6f43690c3e32a88d5f1d81",
+      "used_by": [
+        "besideyou-app/04-portrait-stage-and-runtime.md",
+        "besideyou-app/05-touch-guide-and-progress.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "当前 contract",
+        "测试映射"
+      ],
+      "symbol_first_match_lines": {
+        "当前 contract": 32,
+        "测试映射": 105
+      }
+    },
+    {
+      "id": "source-8b7e9df876",
+      "path": "pubspec.yaml",
+      "sha256": "c1ca364c27e08f9bb088da41008afe529a31cc368932797d7d69fa6f4d78d626",
+      "used_by": [
+        "besideyou-app/01-foundations.md",
+        "besideyou-app/02-startup-api-and-ownership.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "environment:",
+        "sdk: ^3.12.0"
+      ],
+      "symbol_first_match_lines": {
+        "environment:": 13,
+        "sdk: ^3.12.0": 14
+      }
+    },
+    {
+      "id": "source-17f76e550b",
+      "path": "test/app/debug/debug_local_entry_test.dart",
+      "sha256": "05d991fbff98437e831dfce82f0f3733226b8cf18274cf855e51f9107d2677c2",
+      "used_by": [
+        "besideyou-app/06-local-mock-and-real-entry.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "keeps formal entry and app assets free of mock state loading",
+        "BESIDEYOU_MOCK_FORCE_UPDATE"
+      ],
+      "symbol_first_match_lines": {
+        "keeps formal entry and app assets free of mock state loading": 92,
+        "BESIDEYOU_MOCK_FORCE_UPDATE": 99
+      }
+    },
+    {
+      "id": "source-9db9deb7ca",
+      "path": "test/app/pages/home/home_portrait_preparing_test.dart",
+      "sha256": "f17045fdb1b9db4b6c20fcdb7772fbd48d693d88b36e40ec8e8bf553bd061dc9",
+      "used_by": [
+        "besideyou-app/03-home-data-flow.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "one stable capsule opens all pets, updates and closes when empty",
+        "unknown progress keeps loading text without a guessed percent"
+      ],
+      "symbol_first_match_lines": {
+        "one stable capsule opens all pets, updates and closes when empty": 251,
+        "unknown progress keeps loading text without a guessed percent": 44
+      }
+    },
+    {
+      "id": "source-251c9e27ee",
+      "path": "test/app/pages/home/home_root_page_test.dart",
+      "sha256": "ffe11ed18cac606d22868d81b774871dd6d646c31ffdfb694017e733699f971a",
+      "used_by": [
+        "besideyou-app/03-home-data-flow.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "verified purchase and Home return concurrent refresh"
+      ],
+      "symbol_first_match_lines": {
+        "verified purchase and Home return concurrent refresh": 66
+      }
+    },
+    {
+      "id": "source-9c56580039",
+      "path": "test/app/pages/pet_space/pet_space_portrait_backdrop_cases.dart",
+      "sha256": "7ad67f596905df0de7829c00b4bfae0f27460c5f7705bcb5b54434e424d77b17",
+      "used_by": [
+        "besideyou-app/04-portrait-stage-and-runtime.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "_portraitBackdropTests",
+        "missing or broken background stays non-blocking",
+        "a previous pet image completing late cannot replace the new background"
+      ],
+      "symbol_first_match_lines": {
+        "_portraitBackdropTests": 3,
+        "missing or broken background stays non-blocking": 49,
+        "a previous pet image completing late cannot replace the new background": 76
+      }
+    },
+    {
+      "id": "source-8ef8688a61",
+      "path": "test/app/pages/pet_space/pet_space_portrait_guide_cases.dart",
+      "sha256": "a9bfe9f1875dc796307a52a52270070f76f22070ad383ea17e0f052a171cb489",
+      "used_by": [
+        "besideyou-app/05-touch-guide-and-progress.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "auth-only switch rebinds the default account progress",
+        "B and C keep separate teaching across pets and late reads"
+      ],
+      "symbol_first_match_lines": {
+        "auth-only switch rebinds the default account progress": 4,
+        "B and C keep separate teaching across pets and late reads": 57
+      }
+    },
+    {
+      "id": "source-291a67626f",
+      "path": "test/app/pages/pet_space/pet_space_portrait_guide_progress_test.dart",
+      "sha256": "a80d0078caf32e87a11af0503a9bda4c1dde89e52a7bf0da03f64ee6e642aa70",
+      "used_by": [
+        "besideyou-app/05-touch-guide-and-progress.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "late uncompleted read cannot undo completion",
+        "failed save keeps session completion and retries on next entry",
+        "B completion is shared within B but never inherited by C",
+        "late B read and save only change B after C becomes active",
+        "anonymous entry never reads or writes a shared completion"
+      ],
+      "symbol_first_match_lines": {
+        "late uncompleted read cannot undo completion": 25,
+        "failed save keeps session completion and retries on next entry": 50,
+        "B completion is shared within B but never inherited by C": 68,
+        "late B read and save only change B after C becomes active": 106,
+        "anonymous entry never reads or writes a shared completion": 126
+      }
+    },
+    {
+      "id": "source-dc12de3096",
+      "path": "test/app/pages/pet_space/pet_space_portrait_guide_test.dart",
+      "sha256": "9958a6f8896b3a0d6d11a5f9c8a61785897d32e2d47489295e962ccc8d7c21c9",
+      "used_by": [
+        "besideyou-app/05-touch-guide-and-progress.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "counts from actual matching Hold playback, then completes once",
+        "Great waits for persistence; completion is not undone by release",
+        "completed guide settles when",
+        "new middle press during release can qualify only on its own Hold"
+      ],
+      "symbol_first_match_lines": {
+        "counts from actual matching Hold playback, then completes once": 140,
+        "Great waits for persistence; completion is not undone by release": 195,
+        "completed guide settles when": 221,
+        "new middle press during release can qualify only on its own Hold": 350
+      }
+    },
+    {
+      "id": "source-9c6a3c1448",
+      "path": "test/app/pages/pet_space/pet_space_portrait_stage_cases.dart",
+      "sha256": "761d28ff82d9a86f94b1f67aee8248c1a313ef7ed28b1eb35f3149339ab6b58a",
+      "used_by": [
+        "besideyou-app/04-portrait-stage-and-runtime.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "_portraitStageTests",
+        "candidate keeps the active poster and backdrop paired",
+        "dragging out and cancelling releases the owner for a new touch"
+      ],
+      "symbol_first_match_lines": {
+        "_portraitStageTests": 3,
+        "candidate keeps the active poster and backdrop paired": 68,
+        "dragging out and cancelling releases the owner for a new touch": 147
+      }
+    },
+    {
+      "id": "source-68974c6f14",
+      "path": "test/app/route/home_basic_upgrade_return_test.dart",
+      "sha256": "ba37247e77b43800494bda25e83126abad3a6b31c7623d2f436c698b24d0927c",
+      "used_by": [
+        "besideyou-app/03-home-data-flow.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "Basic paw upgrades through formal routes and refreshes Home"
+      ],
+      "symbol_first_match_lines": {
+        "Basic paw upgrades through formal routes and refreshes Home": 15
+      }
+    },
+    {
+      "id": "source-fa07155a58",
+      "path": "test/app/space/pet_space_priority_prewarmer_test.dart",
+      "sha256": "854dbe5a73cdebfc46c2df9fbcdf2312dc315e35817ffd57be934c8ec8ad6883",
+      "used_by": [
+        "besideyou-app/03-home-data-flow.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "local progress survives server ready and finishes only after media commit",
+        "failed local preparation stays retryable and reset fences late completion"
+      ],
+      "symbol_first_match_lines": {
+        "local progress survives server ready and finishes only after media commit": 15,
+        "failed local preparation stays retryable and reset fences late completion": 83
+      }
+    }
+  ],
+  "external_references": [
+    {
+      "title": "Dart async/await",
+      "url": "https://dart.dev/libraries/async/async-await",
+      "accessed_date": "2026-09-21"
+    },
+    {
+      "title": "Dart null safety",
+      "url": "https://dart.dev/null-safety/understanding-null-safety",
+      "accessed_date": "2026-09-21"
+    },
+    {
+      "title": "Flutter State.mounted",
+      "url": "https://api.flutter.dev/flutter/widgets/State/mounted.html",
+      "accessed_date": "2026-09-21"
+    }
+  ]
+}
