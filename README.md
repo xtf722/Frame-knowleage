@@ -1,10 +1,12 @@
 # Frame 与 BesideYou App 项目学习知识库
 
-从做过的项目里提炼可以解释、复现和迁移的知识。Frame 重点学习 **Portrait、Moment、Wi-Fi、App Update**；手机端 BesideYou App 按自己的提交整理 **Home、Portrait 展示、触摸教学与本地预览**，并沿着具体问题补齐 Dart、Flutter、Android 和网络基础。
+从项目里提炼可以解释、复现和迁移的知识。Frame 重点学习 **Portrait、Moment、Wi-Fi、App Update**；手机端 BesideYou App 包含 **Home、Portrait、触摸教学与本地预览**，以及从近期更新提炼的 **布局、时间建模、异步隔离、持久恢复、弹窗调度和音频场景**。
 
 这里的目标是：合上文档后，能说清一条链路由谁持有状态、什么时候失效、失败后保留什么，以及下一次先去哪里查。
 
 ## 从这里开始
+
+从近期项目难点提升 Flutter 能力，进入 [App 进阶六期](besideyou-app/README.md#october-series)。每期都有最少源码阅读顺序、失败时序、折叠答案和练习；配套 [Dart 离线实验](labs/app-october/README.md)可主动制造旧响应覆盖与重复业务请求。课程取材与个人贡献分开，不将项目全部更新归为个人实现。
 
 学习自己负责的手机端开发，进入 [BesideYou App 专题](besideyou-app/README.md)：从基础写法和数据流开始，再追 Home 加载与升级返回、Portrait 舞台、长按教学和 Mock 隔离。负责范围由独立的 [App 提交证据](evidence/app-contributions.md)说明。
 

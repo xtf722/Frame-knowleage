@@ -2,6 +2,8 @@
 
 [返回首页](README.md)
 
+已有 Flutter 基础，想从近期 App 更新练习进阶能力，走 [六期项目课程](besideyou-app/README.md#october-series)：布局约束 → 时间与权限 → 异步隔离 → 持久恢复 → 弹窗调度 → 音频场景。配套[离线实验](labs/app-october/README.md)帮助检验自己的解释。
+
 要理解自己负责的手机 App 开发，走 [BesideYou App 学习顺序](besideyou-app/README.md)。其中有独立的提交范围、数据流、基础与业务章节；下方既有课程和问题地图继续围绕 Frame。
 
 已有项目经验、想整理技术亮点与面试案例时，走 [技术博客](articles/README.md) → [面试准备](interview/README.md)。需要补写法时再回到基础课。

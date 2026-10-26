@@ -1,0 +1,444 @@
+{
+  "schema_version": 1,
+  "primary_repository": "app",
+  "captured_date": "2026-10-26",
+  "basis": "Selected current owner sections, implementation paths and behavior tests; project-learning snapshot, not personal contribution or runtime acceptance.",
+  "repositories": {
+    "app": {
+      "head": "bac983c7ef5041125643acd0cbfbe4a3b3bc4a79",
+      "working_tree_dirty": false
+    },
+    "workspace": {
+      "head": "bddb92dc16212d1edd4a57517c872b94c8fa89dc",
+      "working_tree_dirty": true
+    }
+  },
+  "sources": [
+    {
+      "id": "source-6c18e27810",
+      "path": "LAYOUT-CONTEXT.md",
+      "sha256": "46a082522ee761b56c2c8055690442dbd2c8a336a0e93a9b622af74b3736a2de",
+      "used_by": [
+        "besideyou-app/08-layout-constraints.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "设计与验证证据"
+      ],
+      "symbol_first_match_lines": {
+        "设计与验证证据": 19
+      }
+    },
+    {
+      "id": "source-a14eeba8c2",
+      "path": "lib/app/widgets/app_adaptive_layout.dart",
+      "sha256": "9bac0e42331359ac517ab17f2fb162cd9eb71a90c675e78dd722afcb4e0a19b3",
+      "used_by": [
+        "besideyou-app/08-layout-constraints.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "class AppLayoutInfo",
+        "class AppAdaptiveLayout",
+        "class AppFlexibleGaps"
+      ],
+      "symbol_first_match_lines": {
+        "class AppLayoutInfo": 61,
+        "class AppAdaptiveLayout": 159,
+        "class AppFlexibleGaps": 217
+      }
+    },
+    {
+      "id": "source-ef9feeac65",
+      "path": "lib/app/besideyou_adaptive_metrics.dart",
+      "sha256": "122eeca4e8dbcffcb34ef6630b61303f9cb89310e000d6989be283d576325122",
+      "used_by": [
+        "besideyou-app/08-layout-constraints.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "double get tabletFraction"
+      ],
+      "symbol_first_match_lines": {
+        "double get tabletFraction": 27
+      }
+    },
+    {
+      "id": "source-62b71106dd",
+      "path": "lib/app/pages/home/home_notification_center_bubble.dart",
+      "sha256": "bdce5e3d8dd599b4708e46ca622a51c93f763e1b91fab84fa939e66e8da7162a",
+      "used_by": [
+        "besideyou-app/08-layout-constraints.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "class _HomeNotificationCenterHeader"
+      ],
+      "symbol_first_match_lines": {
+        "class _HomeNotificationCenterHeader": 277
+      }
+    },
+    {
+      "id": "source-fea3e4a404",
+      "path": "test/app/widgets/app_adaptive_layout_test.dart",
+      "sha256": "31c36afdf6106eba5ed2453901bcfe9364830bceff4c1160e5fe13dd1e0f57ee",
+      "used_by": [
+        "besideyou-app/08-layout-constraints.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "classifies width from available constraints"
+      ],
+      "symbol_first_match_lines": {
+        "classifies width from available constraints": 6
+      }
+    },
+    {
+      "id": "source-5ab7526def",
+      "path": "TEST.md",
+      "sha256": "fb2aa261334208ee745f6904394b1540a43a64e0d3a70f3dd820717ba3c1bdab",
+      "used_by": [
+        "besideyou-app/08-layout-constraints.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "测试取舍与审查"
+      ],
+      "symbol_first_match_lines": {
+        "测试取舍与审查": 15
+      }
+    },
+    {
+      "id": "source-0b40d2ff4d",
+      "path": "lib/app/pawventures/halloween-timing.md",
+      "sha256": "7746b5a8592ce637734b0c2de807daea15b45f43e1ce302b8c334fa645f08fde",
+      "used_by": [
+        "besideyou-app/09-time-and-capabilities.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "时间规则与控制来源"
+      ],
+      "symbol_first_match_lines": {
+        "时间规则与控制来源": 19
+      }
+    },
+    {
+      "id": "source-4df4fbe26c",
+      "path": "lib/app/pawventures/README.md",
+      "sha256": "46f5971fee6ca294b0e04d1da5926a498a71e5f275e2a5ba273e88caee4de4f7",
+      "used_by": [
+        "besideyou-app/09-time-and-capabilities.md",
+        "besideyou-app/10-async-identity-and-cache.md",
+        "besideyou-app/13-scene-audio.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "报名与制作的接纳边界",
+        "结果缓存",
+        "## 万圣节 BGM"
+      ],
+      "symbol_first_match_lines": {
+        "报名与制作的接纳边界": 47,
+        "结果缓存": 104,
+        "## 万圣节 BGM": 215
+      }
+    },
+    {
+      "id": "source-4bb3f24b33",
+      "path": "lib/app/pawventures/pawventures_preparation_estimate.dart",
+      "sha256": "3cbd85e8e85e009020ac609631196f2c45bb1d8cce68b60d1c97d98b9e43c043",
+      "used_by": [
+        "besideyou-app/09-time-and-capabilities.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "canEstimate",
+        "readOrStart"
+      ],
+      "symbol_first_match_lines": {
+        "canEstimate": 28,
+        "readOrStart": 42
+      }
+    },
+    {
+      "id": "source-b0d7ec2ace",
+      "path": "test/app/pawventures/pawventures_preparation_estimate_test.dart",
+      "sha256": "f19786667b18a31b8132d562d2c707ba84e8e93ca87a151bb68498660abbdb3a",
+      "used_by": [
+        "besideyou-app/09-time-and-capabilities.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "production stage transitions retain the first one-hour deadline"
+      ],
+      "symbol_first_match_lines": {
+        "production stage transitions retain the first one-hour deadline": 75
+      }
+    },
+    {
+      "id": "source-bc2cf803a2",
+      "path": "lib/app/pawventures/pawventures_controller.dart",
+      "sha256": "817b042cdb7db10a8d8cdceb08ad7653714acfe68eea2fb530e77fee05190fee",
+      "used_by": [
+        "besideyou-app/10-async-identity-and-cache.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "class PawventuresController",
+        "_checkDetailRevision",
+        "void _accept"
+      ],
+      "symbol_first_match_lines": {
+        "class PawventuresController": 37,
+        "_checkDetailRevision": 112,
+        "void _accept": 283
+      }
+    },
+    {
+      "id": "source-4ab437ca4c",
+      "path": "lib/app/pawventures/pawventures_photo_cache.dart",
+      "sha256": "dfd87c622881cf523472822ef2cbacbb83f5fac8f1b5a45a827c04ac053f942d",
+      "used_by": [
+        "besideyou-app/10-async-identity-and-cache.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "class PawventuresPhotoCache"
+      ],
+      "symbol_first_match_lines": {
+        "class PawventuresPhotoCache": 11
+      }
+    },
+    {
+      "id": "source-e178d4d05b",
+      "path": "lib/app/widgets/README.md",
+      "sha256": "612b10e9a0fd001a5cc6b390110c97f31013699eb9bbab642c99670147f0b7ce",
+      "used_by": [
+        "besideyou-app/10-async-identity-and-cache.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "远程图片默认持久缓存"
+      ],
+      "symbol_first_match_lines": {
+        "远程图片默认持久缓存": 71
+      }
+    },
+    {
+      "id": "source-6431a1ca16",
+      "path": "test/app/pawventures/pawventures_controller_test.dart",
+      "sha256": "2326c36c15e9c9dee847ed07250c0ed1abf38f1f0f07b86eeb0338c26ce0aa8c",
+      "used_by": [
+        "besideyou-app/10-async-identity-and-cache.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "old list cannot undo a newer used result",
+        "late detail failure cannot replace newer confirmed state with an error"
+      ],
+      "symbol_first_match_lines": {
+        "old list cannot undo a newer used result": 315,
+        "late detail failure cannot replace newer confirmed state with an error": 491
+      }
+    },
+    {
+      "id": "source-f9caf5c965",
+      "path": "test/app/pawventures/pawventures_photo_cache_test.dart",
+      "sha256": "5a66950208930db09bc8ebacef60557a9e338ee72dcbaa3595fa5ee077b68b1d",
+      "used_by": [
+        "besideyou-app/10-async-identity-and-cache.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "result identity isolates activities, revisions and photos"
+      ],
+      "symbol_first_match_lines": {
+        "result identity isolates activities, revisions and photos": 36
+      }
+    },
+    {
+      "id": "source-2c42da5aaf",
+      "path": "lib/app/gem/README.md",
+      "sha256": "a769e3a89b04a284fa52be2aabfda11a56772762ca30eda035a2f6f9cbc5f3cb",
+      "used_by": [
+        "besideyou-app/11-durable-ad-recovery.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "## 广告恢复"
+      ],
+      "symbol_first_match_lines": {
+        "## 广告恢复": 125
+      }
+    },
+    {
+      "id": "source-3afbfbea4a",
+      "path": "lib/app/gem/gem_controller.dart",
+      "sha256": "1377472c3d8aa3c934672a546c0b0de8fbfa7511d9199d87f2d8499ed9d1474d",
+      "used_by": [
+        "besideyou-app/11-durable-ad-recovery.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "requestReward()",
+        "_recoverReward(",
+        "'display_started': true"
+      ],
+      "symbol_first_match_lines": {
+        "requestReward()": 239,
+        "_recoverReward(": 246,
+        "'display_started': true": 315
+      }
+    },
+    {
+      "id": "source-24a0cb3496",
+      "path": "lib/app/gem/gem_operation_store.dart",
+      "sha256": "ef1b396d113ca677f3d0f445b0680bacc1e5f3c78ef6242b12ab46f1cc131068",
+      "used_by": [
+        "besideyou-app/11-durable-ad-recovery.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "class GemOperationStore",
+        "Future<T> _serial"
+      ],
+      "symbol_first_match_lines": {
+        "class GemOperationStore": 13,
+        "Future<T> _serial": 60
+      }
+    },
+    {
+      "id": "source-98ff177022",
+      "path": "test/app/gem/gem_controller_test.dart",
+      "sha256": "381da3b48b1f61f272d8a93f22d2c5eb5186995b4391e99fa8255a21379ef9dc",
+      "used_by": [
+        "besideyou-app/11-durable-ad-recovery.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "server verification prevents a second SDK call; late credit is adopted once"
+      ],
+      "symbol_first_match_lines": {
+        "server verification prevents a second SDK call; late credit is adopted once": 751
+      }
+    },
+    {
+      "id": "source-7a5d6c0e5e",
+      "path": "lib/app/daily_greeting/README.md",
+      "sha256": "cd2e9316ee09b721424d485ea7b70b76bc87a92ab5b6be8621118bbd25f2acb2",
+      "used_by": [
+        "besideyou-app/12-popup-scheduling.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "冷启动自动弹窗管理"
+      ],
+      "symbol_first_match_lines": {
+        "冷启动自动弹窗管理": 5
+      }
+    },
+    {
+      "id": "source-da98e737bd",
+      "path": "lib/app/daily_greeting/automatic_popup_request.dart",
+      "sha256": "68652f7d2ebd53d309ee27f323461fcfe572ed883fce85b75f18599f37730fd0",
+      "used_by": [
+        "besideyou-app/12-popup-scheduling.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "enum AutomaticPopupKind",
+        "entryIdentity"
+      ],
+      "symbol_first_match_lines": {
+        "enum AutomaticPopupKind": 5,
+        "entryIdentity": 36
+      }
+    },
+    {
+      "id": "source-e2a5022afd",
+      "path": "lib/app/daily_greeting/companion_popup_controller.dart",
+      "sha256": "0bd767756fd39f276fd7a7d5709338f186ed37623ea61a6826b6108c6d47547e",
+      "used_by": [
+        "besideyou-app/12-popup-scheduling.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "markAutomaticShown",
+        "canContinuePresentation",
+        "_drainPresentation"
+      ],
+      "symbol_first_match_lines": {
+        "markAutomaticShown": 70,
+        "canContinuePresentation": 53,
+        "_drainPresentation": 167
+      }
+    },
+    {
+      "id": "source-3c32ccbd8a",
+      "path": "test/app/daily_greeting/automatic_popup_budget_test.dart",
+      "sha256": "be6c2ce496a7ae5f5ac7103c53548c57fda6a772eb22d3b1e095087494cf5821",
+      "used_by": [
+        "besideyou-app/12-popup-scheduling.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "failed or stale candidates leave capacity for the next eligible group"
+      ],
+      "symbol_first_match_lines": {
+        "failed or stale candidates leave capacity for the next eligible group": 115
+      }
+    },
+    {
+      "id": "source-a5faca4e97",
+      "path": "lib/app/audio/background_music_scene.dart",
+      "sha256": "ef0b951f9c1f096eb46d15c757d87fd4e85a5e67f3ac4efbe167b529a4a62757",
+      "used_by": [
+        "besideyou-app/13-scene-audio.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "class BackgroundMusicScene",
+        "didPushNext"
+      ],
+      "symbol_first_match_lines": {
+        "class BackgroundMusicScene": 11,
+        "didPushNext": 85
+      }
+    },
+    {
+      "id": "source-05385a47ae",
+      "path": "lib/app/audio/background_music_controller.dart",
+      "sha256": "0e38edaaafce6c4047d1b8e3a711859dc332d1f74dfa25fd20af4ce37d3a7738",
+      "used_by": [
+        "besideyou-app/13-scene-audio.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "setForegroundPlayback",
+        "_syncResource",
+        "_playIfAllowed"
+      ],
+      "symbol_first_match_lines": {
+        "setForegroundPlayback": 324,
+        "_syncResource": 225,
+        "_playIfAllowed": 212
+      }
+    },
+    {
+      "id": "source-a22dc44130",
+      "path": "test/app/audio/background_music_scene_test.dart",
+      "sha256": "9f57d75d483daaf5e78078c14d1faf029e84bdd98b1a78ded7505250d5824bbd",
+      "used_by": [
+        "besideyou-app/13-scene-audio.md"
+      ],
+      "source_fragments": [],
+      "symbols": [
+        "ordinary pages cover and restore an eligible seasonal scene"
+      ],
+      "symbol_first_match_lines": {
+        "ordinary pages cover and restore an eligible seasonal scene": 77
+      }
+    }
+  ]
+}
